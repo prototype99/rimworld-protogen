@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>ProtogenAverage</defName>
+    <title>Common Citizen</title>
+	<titleShort>Citizen</titleShort>
+    <description>[PAWN_nameDef] was taken in by a small town which welcomed them with open arms. [PAWN_pronoun] was a perfectly average citizen in the peaceful town.</description>
+    <slot>Adulthood</slot>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>2</Social>
+    </skillGains>
+</AlienRace.AlienBackstoryDef>
+  
+	<!-- ====== Adult Stories - not porn OR IS IT ====== -->
+
+<AlienRace.AlienBackstoryDef>
+    <defName>ProtogenBully</defName>
+    <title>Physical Manipulator</title>
+	<titleShort>Manipulator</titleShort>
+    <description>[PAWN_nameDef] demonstrated significantly greater control over others with the threat of violence. [PAWN_pronoun] was able to bend them to their target to their will, often for personal gain. [PAWN_pronoun] ended up stopping such excessive intimidation over others, but wasn't so good at talking to others due to it.</description>
+    <slot>Adulthood</slot>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+	<maleCommonality>10</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+    <skillGains>
+	  <Melee>4</Melee>
+    </skillGains>
+    <workDisables>
+        <li>Social</li>
+    </workDisables>
+</AlienRace.AlienBackstoryDef>
+
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SergalTerrorVictim</defName>
+    <title>Terror Victim</title>
+	<titleShort>Terror Victim</titleShort>
+    <description>During the great Avali plague, [PAWN_nameDef] was part of a colony that contained both Sergals and Avali when Creeg's virus hit. It left the colony crippled and [PAWN_nameDef] was lucky to get out of there alive.</description>
+    <slot>Childhood</slot>
+    <spawnCategories>
+		<li>ProtogenBackstory</li>
+    </spawnCategories>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <Medicine>4</Medicine>
+    </skillGains>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SergalTerrorVictimAdult</defName>
+    <title>Terror Victim</title>
+	<titleShort>Terror Victim</titleShort>
+    <description>During the great Avali plague, [PAWN_nameDef] was part of a colony that contained both Sergals and Avali when Creeg's virus hit. Luckily, some bravery and a quick evac routines allowed [PAWN_pronoun] to escape.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <Construction>3</Construction>
+	        <Crafting>2</Crafting>
+    </skillGains>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>ProtoEngineer</defName>
+    <title>Colony Engineer</title>
+	<titleShort>Engineer</titleShort>
+    <description>After a long time understanding different methods of construction throughout their years, [PAWN_nameDef] found it easy to build many things such as homes and defences for a colony.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <Intellectual>2</Intellectual>
+	  <Crafting>6</Crafting>
+    </skillGains>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SergalArtist</defName>
+    <title>R4 Artist</title>
+	<titleShort>R4 Artist</titleShort>
+    <description>The Aufenhand was not some kind of workhorse; far from it, he had a great apprecation for the arts. [PAWN_nameDef] trained in the R4 school of arts.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+		<li>ProtogenBackstory</li>
+    </spawnCategories>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <Artistic>8</Artistic>
+    </skillGains>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SergalSpacer</defName>
+    <title>Spacer Sergal</title>
+    <titleShort>Sergal Scout</titleShort>
+    <description>[PAWN_nameDef] took to the stars because planets are boring. [PAWN_pronoun] grew up learning to wheel, deal, and steal ("only when necessary!" said no one ever) enough to keep the ship in spaceworthy condition and delivering cargo on schedule.</description>
+    <slot>Childhood</slot>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<maleCommonality>30</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+      <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <Construction>6</Construction>
+      <Social>3</Social>
+      <Crafting>3</Crafting>
+    </skillGains>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SergalFire</defName>
+    <title>Alien girl survivor</title>
+    <titleShort>Girlophobe</titleShort>
+    <description>[PAWN_nameDef] is allergic to women. That made for an interesting childhood.</description>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+	<maleCommonality>20</maleCommonality>
+	<femaleCommonality>0</femaleCommonality>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <Animals>8</Animals>
+      <Intellectual>4</Intellectual>
+        <Crafting>3</Crafting>
+    </skillGains>
+	<workDisables>
+		<li>Caring</li>
+	</workDisables>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SergalColonyKid</defName>
+    <title>Protogen Colonypup</title>
+    <titleShort>Pup</titleShort>
+    <description>[PAWN_nameDef] was born in a small trading post on the outer rims of the Sergal Empire. [PAWN_pronoun] had to learn to carry [PAWN_possessive] weight and keep the colony running from an early age.</description>
+    <slot>Childhood</slot>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	<maleCommonality>80</maleCommonality>
+	<femaleCommonality>80</femaleCommonality>
+    <skillGains>
+      <Social>2</Social>
+      <Construction>1</Construction>
+      <Plants>2</Plants>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SergalCoreKid</defName>
+    <title>Protogen corepup</title>
+    <titleShort>Corepup</titleShort>
+    <description>[PAWN_nameDef] was born on R4 in the Hamal Cluster. [PAWN_pronoun] grew up in one of the many ringworlds, spending much of [PAWN_possessive] time in the upper-level saloons.</description>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+	<maleCommonality>90</maleCommonality>
+	<femaleCommonality>90</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <Social>2</Social>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef>
+    <defName>SergalDigKid</defName>
+    <title>Protogen Miner</title>
+    <titleShort>Miner</titleShort>
+    <description>[PAWN_nameDef] was always playing in the sandbox, or building in the mud, or otherwise finding excuses to make holes in the ground.</description>
+	<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+	<slot>Childhood</slot>
+    <skillGains>
+      <Plants>1</Plants>
+	  <Mining>4</Mining>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+
+  <!-- ====== Adult Stories - not porn ====== -->
+
+
+
+    <AlienRace.AlienBackstoryDef>
+    <defName>SergalToymaker</defName>
+    <title>Toylord</title>
+    <titleShort>Toylord</titleShort>
+    <description>[PAWN_nameDef] found [PAWN_pronoun] had a natural talent for making delicate items such as small gears, and inscribing beautiful designs. [PAWN_pronoun] has made a name as an accomplished toylord. Damn these sergs have odd names for stuff.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>1</Shooting>
+      <Crafting>5</Crafting>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+      <AlienRace.AlienBackstoryDef>
+    <defName>SergalSexSlave</defName>
+    <title>Sex Slave</title>
+    <titleShort>Concubine</titleShort>
+    <description>[PAWN_nameDef] was captured by slavers and sold into sexual slavery. [PAWN_pronoun] was forced to do all sorts of lewd acts for [PAWN_possessive] 'owner', but grew accustomed to the otherwise lavish environment, and spoiled as far as labor is concerned.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>10</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <workDisables>
+     <li>Hauling</li>
+	 <li>Cleaning</li>
+    </workDisables>
+    <skillGains>
+      <Social>4</Social>
+	   <Cooking>4</Cooking>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+      <AlienRace.AlienBackstoryDef>
+    <defName>SergalLasminer</defName>
+    <title>Sergal lasminer</title>
+    <titleShort>Miner</titleShort>
+    <description>[PAWN_nameDef] operated a laser-mining rig at an advanced asteroidal mining station, and occasionally operated manual equipment when they'd pumped atmosphere into a particularly rich shaft. [PAWN_pronoun] developed a strong back and keen eye with [PAWN_possessive] laser-drill.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>3</Shooting>
+      <Mining>6</Mining>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef>
+
+    <defName>SergalBiogen</defName>
+    <title>Geneticist</title>
+    <titleShort>Biologist</titleShort>
+    <description>[PAWN_nameDef] is a bio scientist for the Sergal Empire. [PAWN_pronoun] has dedicated [PAWN_possessive] life to unravelling the genome and improving [PAWN_possessive] race... FOR THE CREEG!</description>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Intellectual>6</Intellectual>
+      <Medicine>5</Medicine>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef>
+    <defName>ProtoHunterBS</defName>
+    <title>Protogen Hunter</title>
+    <titleShort>Proto Hunter</titleShort>
+    <description>[PAWN_nameDef] is a professional hunter. Sometimes called to put down manhunters, or guide rich dentists on Safari, [PAWN_possessive] skills as a tracker are only matched by [PAWN_possessive] skill at handling.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>25</maleCommonality>
+	<femaleCommonality>25</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Animals>6</Animals>
+      <Social>2</Social>
+	  <Shooting>2</Shooting>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>SergalXguanabreed</defName>
+    <title>Nivren breeder</title>
+    <titleShort>Breedlord</titleShort>
+    <description>[PAWN_nameDef] has spent many years breeding Vilous wildlife, which requires somewhat special handling due to their rapid reproductive rate. This experience has given [PAWN_pronoun] a great deal of insight into certain animal behaviours.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Animals>6</Animals>
+      <Construction>2</Construction>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef>
+    <defName>SergalTrailblazer</defName>
+    <title>Trail blazer</title>
+    <titleShort>Colonial</titleShort>
+    <description>[PAWN_nameDef] is at the forefront of the effort to expand the Sergal Empire - rushing headlong into the unknown to colonize uncharted worlds and eke out a living, just like the Aufenhand.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>6</Melee>
+      <Plants>3</Plants>
+      <Construction>3</Construction>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+
+     <AlienRace.AlienBackstoryDef>
+    <defName>SergalClerk</defName>
+    <title>Desk clerk</title>
+    <titleShort>Beaurocrat</titleShort>
+    <description>[PAWN_nameDef] was a clerk in an office, filing paperwork, submitting reports. During [PAWN_possessive] downtime, [PAWN_pronoun] would read and study various subjects on the global network through his workstation terminal. This left [PAWN_pronoun] with an unquenchable thirst for knowledge.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Intellectual>5</Intellectual>
+      <Artistic>3</Artistic>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>ProtoDoctor</defName>
+    <title>Proto Doctor</title>
+    <titleShort>Doctor</titleShort>
+    <description>[PAWN_nameDef] has taken an oath to devote [PAWN_possessive] life to healing others, providing quality healthcare even in what others can consider dire circumstances.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>25</maleCommonality>
+	<femaleCommonality>25</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Medicine>8</Medicine>
+    </skillGains>
+    <spawnCategories>
+	 <li>ProtogenBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  
+  <AlienRace.AlienBackstoryDef>
+    <defName>ProtoMedic</defName>
+    <title>Proto Medic</title>
+    <titleShort>Medic</titleShort>
+    <description>[PAWN_nameDef] has taken an oath to devote [PAWN_possessive] life to healing others, and focuses said effort in speed of patching others up and getting them back out on the front line.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>25</maleCommonality>
+	<femaleCommonality>25</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Medicine>4</Medicine>
+    </skillGains>
+    <spawnCategories>
+	 <li>ProtogenBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef>
+    <defName>ProtoChef</defName>
+    <title>Proto saucier</title>
+    <titleShort>Chef-de-partie</titleShort>
+    <description>[PAWN_nameDef] is a saucier, a master chef who specializes in sauces, stews, hot hors d'œuvres, and sautés. [PAWN_pronoun] has helped prepare meals for some of the highest functionaries in various societies. Their familiarity with the various knives and kitchen tools can help in a pinch.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Cooking>8</Cooking>
+      <Melee>2</Melee>
+    </skillGains>
+    <spawnCategories>
+	 <li>ProtogenBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>SergalPackLead</defName>
+    <title>Sergal pack alpha</title>
+    <titleShort>Kerr</titleShort>
+    <description>[PAWN_nameDef] bears the title of leadership among [PAWN_possessive] community. Sergal society has changed many times over the years, but the most recent leader - designated the Kerr - is among the more brutal of titles.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>5</maleCommonality>
+	<femaleCommonality>5</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Social>4</Social>
+	  <Intellectual>4</Intellectual>
+    </skillGains>
+    <spawnCategories>
+	 <li>ProtogenBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>PrivateProto</defName>
+    <title>Army Private</title>
+    <titleShort>Recruit</titleShort>
+    <description>[PAWN_nameDef] is a rank-and-file soldier for one of the many Empires, after being picked up from a space port. [PAWN_pronoun] had served [PAWN_possessive] term of service without incident.... until now.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>4</Shooting>
+      <Melee>8</Melee>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef>
+    <defName>KnightProto</defName>
+    <title>Army Knight</title>
+    <titleShort>Knight</titleShort>
+    <description>[PAWN_nameDef] is an officer for the Proto Empire's army. [PAWN_pronoun] is responsible for the soldiers under [PAWN_possessive] command, and takes that duty seriously.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>3</Shooting>
+      <Melee>6</Melee>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef>
+    <defName>SergalSpacerAdult</defName>
+    <title>Space trader</title>
+    <titleShort>Spacer</titleShort>
+    <description>[PAWN_nameDef] was a free-trader, roving the Hamal Cluster and its neighbor's space searching for deals and opportunities for profit. Until now, [PAWN_pronoun] was flying a ship, making deals with colonies like these... I wonder what happened?</description>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+			<maleCommonality>30</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+      <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+    <skillGains>
+          <Melee>6</Melee>
+      <Social>10</Social>
+      <Shooting>2</Shooting>
+    </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+	  <AlienRace.AlienBackstoryDef>
+    <defName>SergalManhunter</defName>
+    <title>People Collector</title>
+    <titleShort>Collector</titleShort>
+    <description>[PAWN_nameDef] is something of a bounty hunter, often called "collectors" in the Hamal Cluster. Historians claim that this moniker comes from the act of collecting persons under the "I Arrest Your Bitch Ass" act. History aside, [PAWN_nameDef] is not to be taken lightly... or at all.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>28</maleCommonality>
+	<femaleCommonality>28</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>6</Melee>
+      <Shooting>2</Shooting>
+      <Medicine>4</Medicine>
+	  <Crafting>4</Crafting>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+
+  	  <AlienRace.AlienBackstoryDef>
+    <defName>SergalTerminator</defName>
+    <title>Assassin</title>
+    <titleShort>Assassin</titleShort>
+    <description>[PAWN_nameDef] has travelled through time to assassinate a specific target... [PAWN_pronoun] is fond of telling people that [PAWN_pronoun] will 'be back'.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>10</maleCommonality>
+	<femaleCommonality>10</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>6</Melee>
+      <Shooting>3</Shooting>
+      <Social>-4</Social>
+	  <Crafting>4</Crafting>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  	  <AlienRace.AlienBackstoryDef>
+    <defName>SergalCommandoBS</defName>
+    <title>Retired Commando</title>
+    <titleShort>Creeg</titleShort>
+    <description>[PAWN_nameDef] used to be one of the most elite soldiers in the Sergal empire. Now [PAWN_pronoun] is retired... though [PAWN_possessive] former commander is always trying to get [PAWN_pronoun] back. Some time ago, [PAWN_pronoun] had to take out a family member who was on the verge of terrorism. Scary stuff. [PAWN_pronoun] never forgave his former commander or his colleagues.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>1</maleCommonality>
+	<femaleCommonality>1</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>6</Melee>
+      <Shooting>3</Shooting>
+      <Medicine>4</Medicine>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  	  <AlienRace.AlienBackstoryDef>
+    <defName>SergalTXRanger</defName>
+    <title>Police Officer</title>
+    <titleShort>Cop</titleShort>
+    <description>[PAWN_nameDef] was a 'lawman' in a dusty R-Type colony. [PAWN_possessive] preference for working alone and constant 'bending' of the rules earned [PAWN_pronoun] the nickname "Lonely Will Sieger". [PAWN_pronoun] ran afoul of some corrupt military officials running weapons to some drug-lords. Many bullets later, [PAWN_pronoun] ended up taking out the mastermind. Stirring the pot so much probably landed them out here...</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>8</maleCommonality>
+	<femaleCommonality>8</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>2</Shooting>
+	   <Social>-4</Social>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+      <AlienRace.AlienBackstoryDef>
+    <defName>SergalBarbarian</defName>
+    <title>Sergal Barbarian</title>
+    <titleShort>Barbarian</titleShort>
+    <description>[PAWN_nameDef] was captured after a battle on a medieval world, and forced to train as a pit-fighter. After crushing [PAWN_possessive] enemies, seeing them driven before [PAWN_pronoun], and hearing the lamentation of their women, [PAWN_pronoun] was released from captivity. [PAWN_pronoun] now seems to be seeking 'Daijin Kuremkul' or something?</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>15</maleCommonality>
+	<femaleCommonality>6</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>12</Melee>
+	  <Crafting>4</Crafting>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+      <AlienRace.AlienBackstoryDef>
+    <defName>SergalNavyCook</defName>
+    <title>Army Chef</title>
+    <titleShort>Cook</titleShort>
+    <description>[PAWN_nameDef] used to be one of the top Vilous special forces officers. Now [PAWN_pronoun]'s 'just' a cook... who can kill you nine different ways with just a pinky. [PAWN_pronoun] sometimes has knife-fights with Tommy-Lee Jones.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>25</maleCommonality>
+	<femaleCommonality>25</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>3</Shooting>
+	  <Melee>4</Melee>
+	  	<Cooking>5</Cooking>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>SergalKynen</defName>
+    <title>Full-On Doctor</title>
+    <titleShort>Medigod</titleShort>
+    <description>[PAWN_nameDef] was born of a terrible background but managed to defeat the odds and become a renowned medical practitioner who has in particular made excellent progress in the field of robotics.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>0</maleCommonality>
+	<femaleCommonality>1</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Crafting>8</Crafting>
+	  <Intellectual>8</Intellectual>
+	  <Medicine>12</Medicine>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef>
+    <defName>SergalAufen</defName>
+    <title>Sergal Aufen</title>
+    <titleShort>Musician</titleShort>
+    <description>[PAWN_nameDef] has spent many nights following [PAWN_possessive] hero's footsteps. [PAWN_pronoun] has founded colonies, started music businesses, and speaks with an intentional stutter. Jack would be proud.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>1</maleCommonality>
+	<femaleCommonality>0</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Social>12</Social>
+	  <Construction>6</Construction>
+	  <Crafting>8</Crafting>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+
+    <AlienRace.AlienBackstoryDef>
+    <defName>SergalDrugLord</defName>
+    <title>Sergal Slaver</title>
+    <titleShort>Slaver</titleShort>
+    <description>[PAWN_nameDef] built a slave empire with brains, and more than a fair share of ruthlessness. [PAWN_pronoun] made a fortune, which attracted the attention of [PAWN_possessive] rivals, the dreaded Panstrumants Corporation. They struck [PAWN_possessive] base of operation with mercenary raids and terrorist attacks. Now [PAWN_pronoun] is out for revenge...</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>1</Shooting>
+	  <Social>4</Social>
+	  <Medicine>4</Medicine>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+</Defs>

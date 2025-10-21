@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef ParentName="HumanFactionBase" Name="ProtogenTribeBase">
+	<defName>ProtogenTribe</defName>
+	<label>Protogen Tribe</label>
+    <description>An attempt at reconnecting with nature, while forgetting that they're part tech themselves.</description>
+    <pawnSingular>protogen</pawnSingular>
+	<pawnsPlural>protogens</pawnsPlural>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+	<settlementGenerationWeight>1</settlementGenerationWeight>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Prime Minister</leaderTitle>
+    <startingGoodwill>
+		<min>-30</min>
+		<max>40</max>
+    </startingGoodwill>
+	<factionNameMaker>NamerFactionProtogen</factionNameMaker>
+	<settlementNameMaker>NamerFactionProtogenBase</settlementNameMaker>
+	<techLevel>Neolithic</techLevel>
+	<backstoryCategories>
+		<li>ProtogenBackstory</li>
+		<li>Tribal</li>
+		<li>Offworld</li>
+		<li>Outlander</li>
+  	</backstoryCategories>
+		<hairTags>
+			<li>ProtogenHair</li>
+		</hairTags>
+    <naturalColonyGoodwill>
+      <min>-60</min>
+      <max>0</max>
+    </naturalColonyGoodwill>
+    <visitorTraderKinds>
+		<li>Visitor_Neolithic_Standard</li>
+    </visitorTraderKinds>
+	<caravanTraderKinds>
+		<li>Caravan_Neolithic_BulkGoods</li>
+		<li>Caravan_Neolithic_WarMerchant</li>
+		<li>Caravan_Neolithic_Slaver</li>
+		<li>Caravan_Neolithic_ShamanMerchant</li>
+    </caravanTraderKinds>
+    <baseTraderKinds>
+		<li>Base_Neolithic_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+		<min>-40</min>
+		<max>55</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+		<points>
+			<li>(0,35)</li>
+			<li>(70, 50)</li>
+			<li>(700, 100)</li>
+			<li>(1300, 150)</li>
+			<li>(100000, 10000)</li>
+		</points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+		<li>
+			<kindDef>Combat</kindDef>
+			<commonality>100</commonality>
+			<options>
+				<Protogen_Tribal_Penitent>10</Protogen_Tribal_Penitent>
+				<Protogen_Tribal_Archer>40</Protogen_Tribal_Archer>
+				<Protogen_Tribal_ChiefMelee>150</Protogen_Tribal_ChiefMelee>
+				<Protogen_Tribal_Warrior>50</Protogen_Tribal_Warrior>
+				<Protogen_Tribal_Hunter>60</Protogen_Tribal_Hunter>
+				<Protogen_Tribal_HeavyArcher>60</Protogen_Tribal_HeavyArcher>
+				<Protogen_Tribal_Berserker>60</Protogen_Tribal_Berserker>
+			</options>
+		</li>
+		<li>
+			<kindDef>Peaceful</kindDef>
+			<options>
+				<Protogen_Tribal_Warrior>20</Protogen_Tribal_Warrior>
+				<Protogen_Tribal_Archer>10</Protogen_Tribal_Archer>
+				<Protogen_Tribal_Hunter>10</Protogen_Tribal_Hunter>
+				<Protogen_Tribal_HeavyArcher>10</Protogen_Tribal_HeavyArcher>
+				<Protogen_Tribal_Berserker>5</Protogen_Tribal_Berserker>
+				<Protogen_Tribal_ChiefRanged>3</Protogen_Tribal_ChiefRanged>
+				<Protogen_Tribal_ChiefMelee>1.5</Protogen_Tribal_ChiefMelee>
+			</options>
+		</li>
+		<li>
+			<kindDef>Trader</kindDef>
+			<traders>
+				<Protogen_Tribal_Trader>1</Protogen_Tribal_Trader>
+			</traders>
+			<carriers>
+				<Muffalo>4</Muffalo>
+				<Dromedary>2</Dromedary>
+			</carriers>
+			<guards>
+				<Protogen_Tribal_HeavyArcher>3</Protogen_Tribal_HeavyArcher>
+				<Protogen_Tribal_Hunter>3</Protogen_Tribal_Hunter>
+				<Protogen_Tribal_Warrior>3</Protogen_Tribal_Warrior>
+				<Protogen_Tribal_Berserker>3</Protogen_Tribal_Berserker>
+			</guards>
+		</li>
+		<li>
+			<kindDef>Settlement</kindDef>
+			<options>
+				<Protogen_Tribal_Warrior>20</Protogen_Tribal_Warrior>
+				<Protogen_Tribal_Archer>10</Protogen_Tribal_Archer>
+				<Protogen_Tribal_Hunter>10</Protogen_Tribal_Hunter>
+				<Protogen_Tribal_HeavyArcher>10</Protogen_Tribal_HeavyArcher>
+				<Protogen_Tribal_Berserker>5</Protogen_Tribal_Berserker>
+				<Protogen_Tribal_ChiefRanged>3</Protogen_Tribal_ChiefRanged>
+				<Protogen_Tribal_ChiefMelee>1.5</Protogen_Tribal_ChiefMelee>
+			</options>
+		</li>
+    </pawnGroupMakers>
+    <factionIconPath>World/ProtogenBaseIcon</factionIconPath>
+    <settlementTexturePath>World/ProtogenBaseIcon</settlementTexturePath>
+  </FactionDef>
+
+</Defs>

@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ============================ Protogen Base ========================== -->
+
+  <PawnKindDef Name="ProtogenBaseNME" Abstract="True">
+    <defaultFactionType>ProtogenEmpireNME</defaultFactionType>
+    <race>Alien_ProtogenNME</race>
+	<backstoryCategories>
+			<li>ProtogenBackstory</li>
+  	</backstoryCategories>
+    <chemicalAddictionChance>0.01</chemicalAddictionChance>
+    <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelTags>
+    <li>Outlander</li>
+    </apparelTags>
+	 <weaponTags>
+	  <li>ProtogenRifle</li>
+	  <li>Outlander</li>
+    </weaponTags>
+  </PawnKindDef>
+  
+  <!-- ============================ Protogen Civilian Base ========================== -->
+
+  <PawnKindDef Name="ProtogenCivBaseNME" ParentName="ProtogenBaseNME" Abstract="True">
+    <combatPower>25</combatPower>
+	<race>Alien_ProtogenNME</race>
+	<initialWillRange>11~33</initialWillRange>
+    <initialResistanceRange>15~43</initialResistanceRange>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>false</isFighter>
+    <gearHealthRange>0.2~2.0</gearHealthRange>
+    <apparelMoney>300~900</apparelMoney>
+    <weaponMoney>1400~2500</weaponMoney>
+    <weaponTags>
+      <li>Gun</li>
+      <li>NonNeolithicOnlyMelee</li>
+    </weaponTags>
+    <techHediffsMoney>200~300</techHediffsMoney>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+    <techHediffsChance>0.51</techHediffsChance>
+    <invNutrition>2.55</invNutrition>
+    <inventoryOptions>
+      <skipChance>0.75</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>90</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>25~70</countRange>
+        </li>
+        <li>
+          <choiceChance>10</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>700~1000</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+  <!-- ============================ Protogen Civilians ========================== -->
+  
+  <PawnKindDef ParentName="ProtogenCivBaseNME">
+    <defName>ProtogenColonistNME</defName>
+    <label>colonist</label>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="ProtogenCivBaseNME">
+    <defName>ProtogenPackLeaderNME</defName>
+    <label>Kerr</label>
+    <labelPlural>Kerrs</labelPlural>
+    <factionLeader>true</factionLeader>
+	<minGenerationAge>20</minGenerationAge>
+	<maxGenerationAge>450</maxGenerationAge>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="ProtogenCivBaseNME">
+    <defName>ProtogenTraderNME</defName>
+    <label>colony trader</label>
+    <trader>true</trader>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="ProtogenCivBaseNME">
+    <defName>ProtogenSlaveNME</defName>
+    <label>slave</label>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="ProtogenCivBaseNME">
+    <defName>ProtogenRefugeeNME</defName>
+    <label>refugee</label>
+  </PawnKindDef>
+
+  
+  <!-- ============================ Protogen Security ========================== -->
+  
+  <PawnKindDef ParentName="ProtogenCivBaseNME">
+    <defName>ProtogenSecurityGuardNME</defName>
+    <label>security guard</label>
+    <combatPower>50</combatPower>
+    <maxGenerationAge>100</maxGenerationAge>
+    <gearHealthRange>0.5~1.8</gearHealthRange>
+    <apparelMoney>700~9000</apparelMoney>
+    <weaponMoney>1400~38000</weaponMoney>
+    <techHediffsMoney>200~5000</techHediffsMoney>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+    <techHediffsChance>0.20</techHediffsChance>
+    <invNutrition>2.55</invNutrition>
+    <inventoryOptions>
+      <skipChance>0.95</skipChance>
+      <thingDef>Silver</thingDef>
+      <countRange>30~100</countRange>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+ 
+  <!-- ============================ Protogen Military Base ========================== -->
+  
+  <PawnKindDef Name="ProtogenMilBaseNME" ParentName="ProtogenBaseNME" Abstract="True">
+    <chemicalAddictionChance>0</chemicalAddictionChance>
+    <isFighter>true</isFighter>
+	<race>Alien_ProtogenNME</race>
+	<initialWillRange>11~33</initialWillRange>
+    <initialResistanceRange>15~43</initialResistanceRange>
+    <invNutrition>2.55</invNutrition>
+    <itemQuality>Normal</itemQuality>
+	<minGenerationAge>19</minGenerationAge>
+    <maxGenerationAge>46</maxGenerationAge>
+    <gearHealthRange>0.7~2.3</gearHealthRange>
+    <apparelTags>
+      <li>Outlander</li>
+      <li>Military</li>
+    </apparelTags>
+    <apparelMoney>1500~5800</apparelMoney>
+    <weaponMoney>1400~20000</weaponMoney>
+    <techHediffsMoney>1000~15000</techHediffsMoney>
+    <inventoryOptions>
+      <skipChance>0.8</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>50~200</countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1~1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+  <!-- ============================ Protogen Military ========================== -->
+  
+  <PawnKindDef ParentName="ProtogenMilBaseNME">
+    <defName>ProtogenRecruitNME</defName>
+    <label>recruit</label>
+    <combatPower>70</combatPower>
+  </PawnKindDef>
+
+  
+  <PawnKindDef ParentName="ProtogenMilBaseNME">
+    <defName>ProtogenHunterNME</defName>
+    <label>hunter</label>
+    <combatPower>90</combatPower>
+    <minGenerationAge>19</minGenerationAge>
+    <gearHealthRange>0.7~2.3</gearHealthRange>
+    <apparelTags>
+      <li>Outlander</li>
+      <li>Military</li>
+    </apparelTags>
+    <apparelMoney>1500~25000</apparelMoney>
+    <weaponMoney>1400~28000</weaponMoney>
+    <weaponTags>
+      <li>SniperRifle</li>
+    </weaponTags>
+    <techHediffsMoney>1000~15000</techHediffsMoney>
+    <combatEnhancingDrugsCount>0~2</combatEnhancingDrugsCount>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.73</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0.8</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>50~200</countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1~1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+
+  <PawnKindDef ParentName="ProtogenMilBaseNME">
+    <defName>ProtogenCommandoNME</defName>
+    <label>commando</label>
+    <combatPower>135</combatPower>
+    <minGenerationAge>20</minGenerationAge>
+    <gearHealthRange>0.5~2.3</gearHealthRange>
+    <apparelTags>
+      <li>Outlander</li>
+      <li>Military</li>
+    </apparelTags>
+    <apparelMoney>1000~26000</apparelMoney>
+    <weaponMoney>1400~28000</weaponMoney>
+    <techHediffsMoney>2000~30000</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.88</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0.8</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>180~400</countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1~2</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  
+  <PawnKindDef ParentName="ProtogenMilBaseNME">
+     <defName>ProtogenCommandoEliteNME</defName>
+    <label>elite commando</label>
+    <combatPower>220</combatPower>
+    <minGenerationAge>26</minGenerationAge>
+    <gearHealthRange>0.8~3.5</gearHealthRange>
+    <apparelTags>
+      <li>Military</li>
+      <li>Spacer</li>
+    </apparelTags>
+    <apparelMoney>2500~42000</apparelMoney>
+    <weaponMoney>1600~28000</weaponMoney>
+    <weaponTags>
+	  <li>EliteGun</li>
+      <li>AdvancedGun</li>
+    </weaponTags>
+    <techHediffsMoney>2000~8000</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.80</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0.8</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>120~480</countRange>
+        </li>
+        <li> 
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1~2</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+</Defs>

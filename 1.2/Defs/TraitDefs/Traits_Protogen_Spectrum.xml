@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TraitDef>
+    <defName>FlameImmune</defName>
+    <commonality>0.13</commonality>
+    <degreeDatas>
+      <li>
+        <label>flame proof</label>
+        <description>[PAWN_nameDef] is flame-proof, protected from blazes which would burn some of the most resilient materials. </description>
+		<degree>2</degree>
+		<statOffsets>
+			<Flammability>-1.0</Flammability>
+        </statOffsets>
+		<marketValueFactorOffset>0.20</marketValueFactorOffset>
+      </li>
+      <li>
+        <label>flame resistant</label>
+        <description>[PAWN_nameDef] is hard to burn, and it shows quite well. They would be a great fire fighter, with some training.</description>
+		<degree>1</degree>
+		<statOffsets>
+			<Flammability>-0.5</Flammability>
+        </statOffsets>
+		<marketValueFactorOffset>0.10</marketValueFactorOffset>
+      </li>
+      <li>
+        <label>easy burn</label>
+        <description>[PAWN_nameDef] is surprisingly quite flammable compared to many, making them easier to burn.</description>
+		<degree>-1</degree>
+		<statOffsets>
+			<Flammability>0.5</Flammability>
+        </statOffsets>
+		<marketValueFactorOffset>-0.10</marketValueFactorOffset>
+      </li>
+      <li>
+        <label>perfect kindling</label>
+        <description>[PAWN_nameDef] is just perfect to be thrown on top of a bonfire, though how they're so flammable is a mystery to all.</description>
+		<degree>-2</degree>
+		<statOffsets>
+			<Flammability>1.0</Flammability>
+        </statOffsets>
+		<marketValueFactorOffset>-0.20</marketValueFactorOffset>
+      </li>
+    </degreeDatas>
+		<conflictingTraits>
+			<li>Wimp</li>
+		</conflictingTraits>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>TempResilience</defName>
+    <commonality>0.15</commonality>
+    <degreeDatas>
+      <li>
+        <label>temperature hyposensitvity</label>
+        <description>[PAWN_nameDef] is hard to burn, and it shows quite well. They would be a great fire fighter, with some training.</description>
+		<degree>1</degree>
+		<statOffsets>
+			<ComfyTemperatureMin>-4</ComfyTemperatureMin>
+			<ComfyTemperatureMax>+4</ComfyTemperatureMax>	
+        </statOffsets>
+      </li>
+      <li>
+        <label>temperature hypersensitvity</label>
+        <description>[PAWN_nameDef] is used to the cold, and high temperatures would bother them where others would find it great.</description>
+		<degree>-1</degree>
+		<statOffsets>
+			<ComfyTemperatureMin>+4</ComfyTemperatureMin>
+			<ComfyTemperatureMax>-4</ComfyTemperatureMax>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <!--<TraitDef>
+    <defName>HaulingCapacityTrait</defName>
+    <commonality>0.05</commonality>
+    <degreeDatas>
+      <li>
+        <label>pack mule</label>
+        <description>[PAWN_nameDef] is hard to burn, and it shows quite well. They would be a great fire fighter, with some training.</description>
+		<degree>1</degree>
+		<statOffsets>
+			<CarryingCapacity>25</CarryingCapacity>	
+        </statOffsets>
+      </li>
+      <li>
+        <label>low space</label>
+        <description>[PAWN_nameDef] is surprisingly quite flammable compared to many, making them easier to burn.</description>
+		<degree>-1</degree>
+		<statOffsets>
+			<CarryingCapacity>-25</CarryingCapacity>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>-->
+  
+</Defs>

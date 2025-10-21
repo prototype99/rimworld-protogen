@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+		<defName>MeleeWeapon_ProtogenPowerFist</defName>
+		<label>Powered Fist</label>
+		<description>A modern take on the well-known classic design, utilising technology in order to improve how powerful the impacts are on the target's body.</description>
+		<graphicData>
+			<texPath>ThingDefs_Misc/PowerFist</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Spacer</techLevel>
+		<costStuffCount>40</costStuffCount>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<Mass>2.25</Mass>
+		</statBases>
+		<equippedAngleOffset>0</equippedAngleOffset>
+    <recipeMaker>
+	  <researchPrerequisite>WeaponryProtoMelee</researchPrerequisite>
+      <skillRequirements>
+	    <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+    <weaponTags>
+      <li>ProtogenMelee</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>body</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>plate</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15.7</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>
+	
+</Defs>
+

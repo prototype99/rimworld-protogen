@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <TraitDef>
+    <defName>NoMither</defName>
+    <commonality>0.13</commonality>
+    <degreeDatas>
+      <li>
+        <label>No Mither</label>
+        <description>[PAWN_nameDef] is one tough person, and it shows in how significantly better they take pain. [PAWN_pronoun] however doesn't find pleasure in being critically injured.</description>
+        	<statOffsets>
+         		<PainShockThreshold>0.15</PainShockThreshold>
+				<IncomingDamageFactor>-0.25</IncomingDamageFactor>
+        	</statOffsets>
+		<marketValueFactorOffset>0.10</marketValueFactorOffset>
+      </li>
+    </degreeDatas>
+		<conflictingTraits>
+			<li>Wimp</li>
+			<li>Masochist</li>
+		</conflictingTraits>
+	</TraitDef>
+	
+<!--<TraitDef>
+    <defName>SmallGame</defName>
+    <commonality>0.25</commonality>
+    <degreeDatas>
+      <li>
+        <label>Small Game</label>
+        <description>[PAWN_nameDef] has the undeniable capability to sense danger, in the form of traps laid throughout the environment.</description>
+        	<statOffsets>
+         		<PawnTrapSpringChance>0</PawnTrapSpringChance>
+				<MeleeArmorPenetration>0.25</MeleeArmorPenetration>
+				<ForagedNutritionPerDay>10</ForagedNutritionPerDay>
+        	</statOffsets>
+		<marketValueFactorOffset>0.10</marketValueFactorOffset>
+      </li>
+    </degreeDatas>
+	</TraitDef>
+	
+	<TraitDef>
+    <defName>BotanyKnowledge</defName>
+    <commonality>0.25</commonality>
+    <degreeDatas>
+      <li>
+        <label>Botany Knowledge</label>
+        <description>Wherever [PAWN_nameDef] goes, nature provides. [PAWN_nameDef] can transform plants found in the local environment into tinctures and supplies which slow down bleeding and aid recovery.</description>
+        	<statOffsets>
+				<ForagedNutritionPerDay>0.25</ForagedNutritionPerDay>
+				<MedicalTendSpeed>0.33</MedicalTendSpeed>
+				<MedicalTendQuality>0.33</MedicalTendQuality>
+        	</statOffsets>
+		<marketValueFactorOffset>0.10</marketValueFactorOffset>
+      </li>
+    </degreeDatas>
+	</TraitDef>
+	
+	<TraitDef>
+    <defName>WakeUpExclaim</defName>
+    <commonality>0.12</commonality>
+    <degreeDatas>
+      <li>
+        <label>Wake Up!</label>
+        <description>[PAWN_nameDef] has spent a long time running from... something in their dreams. Drowsy, but determined to survive... But he looks tired, so intensely tired.</description>
+        	<statOffsets>
+				<RestRateMultiplier>-0.5</RestRateMultiplier>
+				<WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+				<MoveSpeed>0.15</MoveSpeed>
+        	</statOffsets>
+		<marketValueFactorOffset>0.10</marketValueFactorOffset>
+      </li>
+    </degreeDatas>
+	</TraitDef>
+	
+	
+	<TraitDef>
+    <defName>Unclean</defName>
+    <commonality>0.12</commonality>
+    <degreeDatas>
+      <li>
+        <label>Unclean</label>
+        <description>[PAWN_nameDef] would fit in perfectly with the unwashed masses of peasants in medieval society.</description>
+        	<statOffsets>
+				<Cleanliness>-15</Cleanliness>
+        	</statOffsets>
+		<marketValueFactorOffset>0.10</marketValueFactorOffset>
+      </li>
+    </degreeDatas>
+	</TraitDef>-->
+	
+</Defs>

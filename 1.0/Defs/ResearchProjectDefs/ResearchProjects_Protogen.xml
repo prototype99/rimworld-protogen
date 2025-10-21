@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ResearchProjectDef>
+		<defName>CeramicsProto</defName>
+		<label>Ceramic Sintering</label>
+		<description>Unlock the true potential of dirt, through sintering. Big words make it sound fancy. Beginning with an S makes it sound Sergally.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<tab>Protogen_ResearchTab</tab>
+		<researchViewX>2.5</researchViewX>
+		<researchViewY>0</researchViewY>	
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>	
+		<defName>WeaponryProtoMelee</defName>
+		<label>Powered Melee Weapons</label>
+		<description>Unlocks recipies to craft melee weapons, utilising more complex designs to improve the damage.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<tab>Protogen_ResearchTab</tab>
+		<researchViewX>2.5</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+
+</Defs>

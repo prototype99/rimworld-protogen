@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef Abstract="True" Name="ProtogenFactionBase">
+    <colorSpectrum>
+      <li>(0, 0.737, 0.847)</li>
+    </colorSpectrum>
+  </FactionDef>
+  
+  <FactionDef Parent="ProtogenFactionBase">
+    <defName>ProtogenPlayerColony</defName>
+    <label>Protogen Empire</label>
+    <description>Your own community.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Protogen</basicMemberKind>
+    <pawnsPlural>protogen</pawnsPlural>
+    <settlementNameMaker>NamerFactionProtogenBase</settlementNameMaker>
+		<playerInitialSettlementNameMaker>NamerFactionProtogenBase</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionProtogen</factionNameMaker>
+    <techLevel>Ultra</techLevel>
+    <backstoryCategories>
+			<li>ProtogenBackstory</li>
+  	</backstoryCategories>
+    <homeIconPath>World/ProtogenBaseIcon</homeIconPath>
+    <expandingIconTexture>World/ProtogenBaseIcon</expandingIconTexture>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>ProtogenHair</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+
+  </FactionDef>
+  
+    <FactionDef Parent="ProtogenFactionBase">
+    <defName>ProtogenPlayerColonyTribal</defName>
+    <label>Protogen Empire Tribal-like</label>
+    <description>Protogen semi-tribal start.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Protogen</basicMemberKind>
+    <pawnsPlural>protogen</pawnsPlural>
+    <settlementNameMaker>NamerFactionProtogenBase</settlementNameMaker>
+		<playerInitialSettlementNameMaker>NamerFactionProtogenBase</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionProtogen</factionNameMaker>
+    <techLevel>Medieval</techLevel>
+    <backstoryCategories>
+			<li>ProtogenTribalBackstory</li>
+  	</backstoryCategories>
+    <homeIconPath>World/ProtogenBaseIcon</homeIconPath>
+    <expandingIconTexture>World/ProtogenBaseIcon</expandingIconTexture>
+    <startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>ProtogenHair</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <colorSpectrum>
+      <li>(0, 0.437, 0.847)</li>
+    </colorSpectrum>
+  </FactionDef>
+
+</Defs>

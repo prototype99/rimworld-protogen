@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+	<SoundDef>
+		<defName>ZeusShockCSGOSound</defName>
+		<eventNames />   
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>ZeusShockCSGOSound</clipPath>
+					</li>
+				</grains>
+		<volumeRange>
+          <min>40.58823</min>
+          <max>40.58823</max>
+        </volumeRange>
+				<pitchRange>
+					<min>0.8152174</min>
+					<max>1.042391</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+</Defs>

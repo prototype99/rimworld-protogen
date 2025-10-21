@@ -1,0 +1,188 @@
+V0.2
+    This mod adds a custom race, Protogen. Adds a new weapon temporarily, and has more of the content used from elsewhere removed.
+		
+V0.3
+    Adds 2 new traits, No Mither (Exclusive to Protogen) and Flammability. Weapon now has a texture, albeit not that good. Several minute fixes too. 	
+
+V0.4
+   Updated to 1.1, old version for 1.0 remains available and unchanged, may return to fix at one point.
+
+V0.5
+   Added the Zeus, a taser which incapacitates enemies as a new weapon, which is part of the research for the custom race.
+
+V0.6
+   Updated the Zeus, as to prevent it spawning within trader inventory and in raids. (Will look further into this to resolve.)
+
+V0.7
+   Fixed some minor errors that would appear on startup, planning to do more in future.
+
+V0.8
+   Added a 1.2 compatiable version for the game.
+
+V0.9
+   Added a 1.3 compatiable version for the game, along with some additional names, and a few tweaks to content. Fingers Crossed it's all good.
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+[h1]Version : 1a[/h1]
+	Updated to Rimworld 1.4. New Names in generator, New Faces to be seen.
+	
+	This is a first round of updates for this mod, and I think delaying a release may hurt more than help.
+	
+	[b]I encourage using a new save game rather than an older one from a previous version due to rewritten assets![/b]
+	
+	[i][b](A bug may cause Faces to not generate for a few units, primarily from traders/encounters. Mostly Harmless it seems, but I'm seeing if there's a fix.)[/b][/i]
+	
+[h1]Mod Features :[/h1]
+	[i]Protogen Race
+	Exclusive Backstories and Traits - WIP
+	Researchable Items - WIP
+	Randomised Faces - WIP[/i]
+	
+[h1]Possible Future Plans :[/h1]
+	[i]Possible Body Changes / Implant Changes
+	Researchable Items / Buildings
+	More Custom Graphics
+	Custom Sounds?
+	Better Screenshots for Thumbnail[/i]
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+A mod that I work on in my spare time, and one of the most polished races I have created so far.
+
+Based off of an old version of Jack's Sergal mod, with his permission to create my own stuff. He's quite a good friend indeed.
+
+[h1]Version : 1b[/h1]
+	Even more Names in generator, Faces have received a new facelift (so to speak).
+	
+	Fixes for the disappearing head, and possibly some unknown bugs have been tentatively applied.
+	
+	[b]I encourage using a new save game rather than an older one from a previous version due to rewritten assets![/b]
+	
+	[b]Any new elements cannot be promised to be backported to earlier versions, but I'll give it a try where possible.[/b]
+	
+[h1]Mod Features :[/h1]
+	[i]Protogen Race
+	Exclusive Backstories and Traits - WIP
+	Researchable Items - WIP
+	Randomised Faces, now with Colour Masks! - WIP[/i]
+	
+[h1]Possible Future Plans :[/h1]
+	[i]Possible Body Changes / Implant Changes
+	Researchable Items / Buildings
+	More Custom Graphics
+	Custom Sounds?
+	Better Screenshots for Thumbnail[/i]
+	
+	Credits :
+	[url=https://steamcommunity.com/profiles/76561198182079259]ShauaPuta[/url] - For aiding in setting up new colourful face masks for the Protogen, a bit of bonus variety to make them pop visually.
+
+[I]If you'd like to throw a few pennies my way as a form of thanks, you can now do it on my [URL=https://ko-fi.com/marleythelucario]Ko-fi.[/url][/i]
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+A mod that I work on in my spare time, and one of the most polished races I have created so far.
+
+Based off of an old version of Jack's Sergal mod, with his permission to create my own stuff. He's quite a good friend indeed.
+
+[h1]Version : 1c[/h1]
+	Even more Names in generator, Faces have received a new facelift (so to speak).
+	
+	Fixes for the disappearing head, and possibly some unknown bugs have been tentatively applied.
+
+	Fixes for the incorrect body colour have been applied.
+	
+	[b]I encourage using a new save game rather than an older one from a previous version due to rewritten assets![/b]
+	
+	[b]Any new elements cannot be promised to be backported to earlier versions, but I'll give it a try where possible.[/b]
+	
+[h1]Mod Features :[/h1]
+	[i]Protogen Race
+	Exclusive Backstories and Traits - WIP
+	Researchable Items - WIP
+	Randomised Faces, now with Colour Masks! - WIP[/i]
+	
+[h1]Possible Future Plans :[/h1]
+	[i]Possible Body Changes / Implant Changes
+	Researchable Items / Buildings
+	More Custom Graphics
+	Custom Sounds?
+	Better Screenshots for Thumbnail[/i]
+	
+	Credits :
+	[url=https://steamcommunity.com/profiles/76561198182079259]ShauaPuta[/url] - For aiding in setting up new colourful face masks for the Protogen, a bit of bonus variety to make them pop visually.
+
+[I]If you'd like to throw a few pennies my way as a form of thanks, you can now do it on my [URL=https://ko-fi.com/marleythelucario]Ko-fi.[/url][/i]
+
+
+
+
+
+A mod that I work on in my spare time, and one of the most polished races I have created so far.
+
+Based off of an old version of Jack's Sergal mod, with his permission to create my own stuff. He's quite a good friend indeed.
+
+[h1]Version : 1c[/h1]
+	Even more Names in generator, Faces have received a new facelift (so to speak).
+	
+	Fixes for the disappearing head, and possibly some unknown bugs have been tentatively applied.
+
+	Fixes for the incorrect body colour have been applied.
+	
+	[b]I encourage using a new save game rather than an older one from a previous version due to rewritten assets![/b]
+	
+	[b]Any new elements cannot be promised to be backported to earlier versions, but I'll give it a try where possible.[/b]
+	
+[h1]Mod Features :[/h1]
+	[i]Protogen Race
+	Exclusive Backstories and Traits - WIP
+	Researchable Items - WIP
+	Randomised Faces, now with Colour Masks! - WIP[/i]
+	
+[h1]Possible Future Plans :[/h1]
+	[i]Possible Body Changes / Implant Changes
+	Researchable Items / Buildings
+	More Custom Graphics
+	Custom Sounds?
+	Better Screenshots for Thumbnail[/i]
+	
+	Credits :
+	[url=https://steamcommunity.com/profiles/76561198182079259]ShauaPuta[/url] - For aiding in setting up new colourful face masks for the Protogen, a bit of bonus variety to make them pop visually.
+
+[I]If you'd like to throw a few pennies my way as a form of thanks, you can now do it on my [URL=https://ko-fi.com/marleythelucario]Ko-fi.[/url][/i]
+
+
+A mod that I work on in my spare time, and one of the most polished races I have created so far.
+
+Based off of an old version of Jack's Sergal mod, with his permission to create my own stuff. He's quite a good friend indeed.
+
+[h1]Version : 1d[/h1]
+	It's now 1.5 compatible, thanks to a friend of the project.
+	
+	[b]I encourage using a new save game rather than an older one from a previous version due to rewritten assets![/b]
+	
+	[b]Any new elements cannot be promised to be backported to earlier versions, but I'll give it a try where possible.[/b]
+	
+[h1]Mod Features :[/h1]
+	[i]Protogen Race
+	Exclusive Backstories and Traits - WIP
+	Researchable Items - WIP
+	Randomised Faces, now with Colour Masks! - WIP[/i]
+	
+[h1]Possible Future Plans :[/h1]
+	[i]Possible Body Changes / Implant Changes
+	Researchable Items / Buildings
+	More Custom Graphics
+	Custom Sounds?
+	Better Screenshots for Thumbnail[/i]
+	
+	Credits :
+	[url=https://steamcommunity.com/profiles/76561198182079259]ShauaPuta[/url] - For aiding in setting up new colourful face masks for the Protogen, a bit of bonus variety to make them pop visually.
+
+[I]If you'd like to throw a few pennies my way as a form of thanks, you can now do it on my [URL=https://ko-fi.com/marleythelucario]Ko-fi.[/url][/i]

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Bases -->
+
+  <HeadTypeDef Name="ProtoAverageBase" Abstract="True">
+    <hairMeshSize>(1.5, 1.5)</hairMeshSize>
+    <beardMeshSize>(1.5, 1.5)</beardMeshSize>
+  </HeadTypeDef>
+
+  <!-- Unisex -->
+
+
+
+  <!-- Male -->
+
+  <HeadTypeDef ParentName="ProtoAverageBase">
+    <defName>Proto_Full_Eyes_Happy</defName>
+    <graphicPath>Things/Protogen/Heads/Proto_Full_Eyes_Happy</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="ProtoAverageBase">
+    <defName>Proto_Full_Eyes</defName>
+    <graphicPath>Things/Protogen/Heads/Proto_Full_Eyes</graphicPath>
+    <eyeOffsetEastWest>(0.175, 0, 0.18)</eyeOffsetEastWest>
+    <gender>None</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="ProtoAverageBase">
+    <defName>Proto_Hollow_Eyes</defName>
+    <graphicPath>Things/Protogen/Heads/Proto_Hollow_Eyes</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+
+
+  <!-- Female -->
+
+  <HeadTypeDef ParentName="ProtoAverageBase">
+    <defName>Proto_Hollow_Eyes_Grump</defName>
+    <graphicPath>Things/Protogen/Heads/Proto_Hollow_Eyes_Grump</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="ProtoAverageBase">
+    <defName>Proto_Full_Eyes_Grump</defName>
+    <graphicPath>Things/Protogen/Heads/Proto_Full_Eyes_Grump</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+
+</Defs>

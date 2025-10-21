@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+ <ThoughtDef>
+    <defName>AteHumanlikeMeatDirectCannibalProtogen</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+    <requiredTraits>
+      <li>Cannibal</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>raw cannibalism</label>
+        <description>I ate the meat of another sentient being, raw, like an animal. Needs garlic.</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  	<ThoughtDef>
+    <defName>AteHumanlikeMeatAsIngredientCannibalProtogen</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+    <requiredTraits>
+      <li>Cannibal</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>cooked cannibalism</label>
+        <description>Delicious sentient being meal. Mmm.</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  	<ThoughtDef>
+		<defName>ProtoPersonalSpace</defName>
+		<icon>Things/Mote/ThoughtSymbol/SleepZ</icon>
+		<showBubble>true</showBubble>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<stackedEffectMultiplier>1</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>REEEEEEEEEEE</label>
+				<description>Someone has stepped into my personal bubble!</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+    <ThoughtDef>
+    <defName>PainProtogen</defName>
+    <workerClass>ThoughtWorker_Pain</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingTraits>
+      <li>Masochist</li>
+	  <li>NoMither</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>minor pain</label>
+        <description>Ow... That hurts.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+      <li>
+        <label>serious pain</label>
+        <description>Ughhh... When will it end?</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+      <li>
+        <label>intense pain</label>
+        <description>Make it stop... make it stop... make it stop...</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+      <li>
+        <label>mind-shattering pain</label>
+        <description>AAAAAHHH!</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+<!--  		
+	<ThoughtDef>
+		<defName>WitnessedDeathFamilyLion</defName>
+		<icon>Things/Mote/ThoughtSymbol/Skull</icon>
+		<showBubble>true</showBubble>
+		<durationDays>6</durationDays>
+		<stackLimit>1</stackLimit>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+			<li>Bloodlust</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>witnessed family member's death</label>
+				<description>My family tree grows smaller and my world more grey.</description>
+				<baseMoodEffect>-15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+    <defName>NakedLion</defName>
+    <workerClass>ThoughtWorker_PsychologicallyNude</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingTraits>
+      <li>Nudist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>in the buff</label>
+        <description>This is completely inappropriate!</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+    <ThoughtDef>
+    <defName>LionPain</defName>
+    <workerClass>ThoughtWorker_Pain</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingTraits>
+      <li>Masochist</li>
+	  <li>NoMither</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>minor pain</label>
+        <description>Tis but a scratch.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>serious pain</label>
+        <description>Agh! Stiff upper lip!</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+      <li>
+        <label>intense pain</label>
+        <description>I can't take this for much longer!</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+      <li>
+        <label>mind-shattering pain</label>
+        <description>RRRRRRRRGGGHHH!</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+	
+	<ThoughtDef>
+    <defName>CrashedTogetherLion</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>40</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>first pride</label>
+        <baseOpinionOffset>25</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>SoldMyLovedOneLion</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>120</durationDays>
+    <stackLimit>10</stackLimit>
+    <stackLimitForSameOtherPawn>2</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>loved one sold</label>
+        <labelSocial>sold my loved one</labelSocial>
+        <description>My heart! How could you sell my heart? This place can go to hell!</description>
+        <baseOpinionOffset>-90</baseOpinionOffset>
+        <baseMoodEffect>-40</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+		
+  <ThoughtDef>
+    <defName>DefeatedHostileFactionLeaderLion</defName>
+    <icon>Things/Mote/ThoughtSymbol/Skull</icon>
+    <showBubble>true</showBubble>
+    <durationDays>6</durationDays>
+    <stackLimit>5</stackLimit>
+    <stages>
+      <li>
+        <label>defeated hostile leader {0}</label>
+        <description>Our enemies have been crushed by my own hand!</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+	-->
+  <ThoughtDef>
+		<defName>KnowPrisonerSoldProtogen</defName>
+		<durationDays>3</durationDays>
+		<stackLimit>12</stackLimit>
+		<nullifyingTraits>
+			<li>Kind</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>a prisoner was sold</label>
+				<description>This colony sold a prisoner into slavery. Our Kerr is pleased and their debt is paid.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>KnowPrisonerSoldLion</defName>
+		<durationDays>3</durationDays>
+		<stackLimit>12</stackLimit>
+		<nullifyingTraits>
+			<li>Kind</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>a prisoner was sold</label>
+				<description>This violates the basic rights of our empire! The monarchy would be disgusted!</description>
+				<baseMoodEffect>-7</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+		
+	<ThoughtDef>
+		<defName>LionTouched</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>3</stackLimit>
+		<stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>touched</label>
+				<description>The love of an animal is a beautiful thing.</description>
+				<baseMoodEffect>4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	
+	
+</Defs>

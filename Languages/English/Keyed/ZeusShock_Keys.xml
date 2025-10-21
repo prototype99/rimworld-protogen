@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+	<Bullet_ZeusShock_SuccessMessage>{0} shocked {1} with the Zeus!</Bullet_ZeusShock_SuccessMessage>
+	<Bullet_ZeusShock_FailureMote>Failure: {0} chance</Bullet_ZeusShock_FailureMote>
+</LanguageData>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef Name="TribalBase" Abstract="True">
+    <race>Alien_Protogen</race>
+    <defaultFactionType>TribeCivil</defaultFactionType>
+    <backstoryCategories>
+      <li>Tribal</li>
+    </backstoryCategories>
+    <maxGenerationAge>60</maxGenerationAge>
+    <chemicalAddictionChance>0.05</chemicalAddictionChance>
+    <invNutrition>2.55</invNutrition>
+    <invFoodDef>Pemmican</invFoodDef>
+    <apparelTags>
+      <li>Medieval</li>
+    </apparelTags>
+  </PawnKindDef>
+
+  <!-- Poverty tier - penitent -->
+
+  <PawnKindDef ParentName="TribalBase">
+    <defName>Protogen_Tribal_Penitent</defName>
+    <label>penitent</label>
+    <combatPower>5</combatPower>
+	<initialWillRange>11~33</initialWillRange>
+    <initialResistanceRange>15~43</initialResistanceRange>
+    <chemicalAddictionChance>0.10</chemicalAddictionChance>
+    <invNutrition>0</invNutrition>
+    <itemQuality>Excellent</itemQuality>
+    <gearHealthRange>0.2~1.1</gearHealthRange>
+    <apparelMoney>50~100</apparelMoney>
+    <weaponMoney>900~1500</weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeAdvanced</li>
+    </weaponTags>
+    <techHediffsMoney>500~500</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.15</techHediffsChance>
+  </PawnKindDef>
+
+  <!-- Low tier - archer -->
+
+  <PawnKindDef ParentName="TribalBase">
+	<defName>Protogen_Tribal_Archer</defName>
+	<label>archer</label>
+    <combatPower>18</combatPower>
+	<initialWillRange>11~33</initialWillRange>
+    <initialResistanceRange>15~43</initialResistanceRange>
+    <itemQuality>Poor</itemQuality>
+    <gearHealthRange>0.5~1.8</gearHealthRange>
+    <apparelMoney>180~350</apparelMoney>
+    <weaponMoney>800~800</weaponMoney>
+		<weaponTags>
+			<li>NeolithicRangedBasic</li>
+		</weaponTags>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.03</techHediffsChance>
+	</PawnKindDef>
+
+  <!-- Mid tier - warrior, hunter, trader -->
+  
+  <PawnKindDef ParentName="TribalBase">
+    <defName>Protogen_Tribal_Warrior</defName>
+    <label>warrior</label>
+    <combatPower>30</combatPower>
+	<race>Alien_Protogen</race>
+	<initialWillRange>11~33</initialWillRange>
+    <initialResistanceRange>15~43</initialResistanceRange>
+    <itemQuality>Excellent</itemQuality>
+    <canBeSapper>true</canBeSapper>
+    <gearHealthRange>0.5~1.8</gearHealthRange>
+    <apparelMoney>200~300</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_WarVeil</li>
+    </apparelRequired>
+    <weaponMoney>1500~1500</weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeDecent</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="TribalBase" Name="Protogen_Tribal_Hunter">
+    <defName>Protogen_Tribal_Hunter</defName>
+    <label>hunter</label>
+    <combatPower>25</combatPower>
+	<race>Alien_Protogen</race>
+	<initialWillRange>11~33</initialWillRange>
+    <initialResistanceRange>15~43</initialResistanceRange>
+    <gearHealthRange>0.5~1.8</gearHealthRange>
+    <apparelMoney>200~300</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_WarVeil</li>
+    </apparelRequired>
+    <weaponMoney>1000~1000</weaponMoney>
+    <weaponTags>
+      <li>NeolithicRangedDecent</li>
+    </weaponTags>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="Protogen_Tribal_Hunter">
+    <defName>Protogen_Tribal_Trader</defName>
+    <label>trader</label>
+    <trader>true</trader>
+    <apparelRequired Inherit="False">
+      <li>Apparel_TribalHeaddress</li>
+    </apparelRequired>
+  </PawnKindDef>
+
+  <!-- High tier - berserker, heavy archer, chief melee, chief ranged -->
+
+  <PawnKindDef ParentName="TribalBase">
+    <defName>Protogen_Tribal_Berserker</defName>
+    <label>berserker</label>
+    <combatPower>45</combatPower>
+	<race>Alien_Protogen</race>
+	<initialWillRange>11~33</initialWillRange>
+    <initialResistanceRange>15~43</initialResistanceRange>
+    <canBeSapper>true</canBeSapper>
+    <apparelMoney>200~550</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_WarMask</li>
+    </apparelRequired>
+    <weaponMoney>3000~3000</weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeAdvanced</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="TribalBase">
+    <defName>Protogen_Tribal_HeavyArcher</defName>
+    <label>heavy archer</label>
+    <combatPower>45</combatPower>
+	<race>Alien_Protogen</race>
+	<initialWillRange>11~33</initialWillRange>
+    <initialResistanceRange>15~43</initialResistanceRange>
+    <apparelMoney>200~550</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_WarMask</li>
+    </apparelRequired>
+    <weaponMoney>2500~2500</weaponMoney>
+    <weaponTags>
+      <li>NeolithicRangedHeavy</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="TribalBase" Name="TribalChiefBase" Abstract="True">
+    <defName>Protogen_Tribal_ChiefMelee</defName>
+    <combatPower>130</combatPower>
+	<race>Alien_Protogen</race>
+	<initialWillRange>11~33</initialWillRange>
+    <initialResistanceRange>15~43</initialResistanceRange>
+    <baseRecruitDifficulty>0.90</baseRecruitDifficulty>
+    <minGenerationAge>20</minGenerationAge>
+    <maxGenerationAge>60</maxGenerationAge>
+    <itemQuality>Masterwork</itemQuality>
+    <factionLeader>true</factionLeader>
+    <canBeSapper>true</canBeSapper>
+    <apparelMoney>450~2750</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_TribalHeaddress</li>
+      <li>Apparel_PlateArmor</li>
+    </apparelRequired>
+    <weaponMoney>500~12000</weaponMoney>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="TribalChiefBase">
+    <defName>Protogen_Tribal_ChiefMelee</defName>
+    <label>berserker chief</label>
+    <weaponTags>
+      <li>NeolithicMeleeAdvanced</li>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+  </PawnKindDef>
+  
+	<PawnKindDef ParentName="TribalChiefBase">
+		<defName>Protogen_Tribal_ChiefRanged</defName>
+		<label>archer chief</label>
+		<weaponTags>
+			<li>NeolithicRangedChief</li>
+		</weaponTags>
+	</PawnKindDef>
+
+</Defs>

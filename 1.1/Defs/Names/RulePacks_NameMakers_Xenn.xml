@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+<RulePackDef>
+    <defName>NamerPersonProtogenMale</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[ProtogenMfirst] [Protogenlast]</li>
+        <li>name->[badassx] [Protogenfirst]</li>
+        <li>name->[ProtogenMfirst] '[badassx]' [Protogenlast]</li>
+        <li>name->[badassx] '[nick]' [Protogenlast]</li>
+        <li>name->[ProtogenMfirst] '[nick]' [Protogenlast]</li>
+        <li>name->[ProtogenMfirst] [badassx]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>ProtogenMfirst</keyword>
+          <path>Protogen_Names/ProtogenM</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Protogenlast</keyword>
+          <path>Protogen_Names/Protogenlast</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badassx</keyword>
+          <path>Protogen_Names/Concepts_Protogen</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nick</keyword>
+          <path>Protogen_Names/Nicks</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>NamerPersonProtogenFemale</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[ProtogenFfirst] [Protogenlast]</li>
+        <li>name->[badassx] [Protogenfirst]</li>
+        <li>name->[ProtogenFfirst] '[badassx]' [Protogenlast]</li>
+        <li>name->[ProtogenFfirst] '[nick]' [Protogenlast]</li>
+        <li>name->[ProtogenFfirst] [badassx]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>ProtogenFfirst</keyword>
+          <path>Protogen_Names/ProtogenF</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Protogenlast</keyword>
+          <path>Protogen_Names/Protogenlast</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badassx</keyword>
+          <path>Protogen_Names/Concepts_Protogen</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nick</keyword>
+          <path>Protogen_Names/Nicks</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

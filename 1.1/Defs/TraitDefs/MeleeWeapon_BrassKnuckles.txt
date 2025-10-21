@@ -1,0 +1,53 @@
+	<ThingDef ParentName="BaseMeleeWeapon_Blunt">
+		<defName>MeleeWeapon_BrassKnuckles</defName>
+		<label>Knuckle Dusters</label>
+		<description>A hard piece of metal shaped to fit around the knuckles.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Club</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<weaponTags>
+      <li>NonNeolithicOnlyMelee</li>
+      <li>NonNeolithicOnlySimpleMelee</li>
+      <li>NeolithicMeleeBasic</li>
+		</weaponTags>
+		<costStuffCount>20</costStuffCount>
+		<statBases>
+			<WorkToMake>500</WorkToMake>
+			<Mass>0.75</Mass>
+      <Weapon_Bulk>0.5</Weapon_Bulk>
+		</statBases>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker>
+    <tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>right fist</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>

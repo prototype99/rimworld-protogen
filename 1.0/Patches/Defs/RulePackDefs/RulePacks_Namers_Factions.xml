@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+	    <xpath>*[self::Defs]</xpath>
+	    <value>
+  <RulePackDef>
+    <defName>NamerFactionProtogenBase</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[protogen_empire_first][protogen_empire_second][protogen_empire_third]</li>
+        <li>r_name->North [protogen_empire_first][protogen_empire_second][protogen_empire_third]</li>
+        <li>r_name->South [protogen_empire_first][protogen_empire_second][protogen_empire_third]</li>
+        <li>r_name->[protogen_empire_first][protogen_empire_second][protogen_empire_third][protogen_empire_second]</li>
+        <li>r_name->East [protogen_empire_first][protogen_empire_second][protogen_empire_third]</li>
+        <li>r_name->West [protogen_empire_first][protogen_empire_second][protogen_empire_third][protogen_empire_second][protogen_empire_third]</li>
+	  </rulesStrings>
+      <rulesFiles>
+        <li>protogen_empire_first->Protogen_Words/ProtogenFirstNamePart</li>
+		<li>protogen_empire_second->Protogen_Words/ProtogenSecondNamePart</li>
+		<li>protogen_empire_third->Protogen_Words/ProtogenThirdNamePart</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+   </value>
+	</Operation>
+		<Operation Class="PatchOperationAdd">
+	    <xpath>*[self::Defs]</xpath>
+	    <value>
+  <RulePackDef>
+    <defName>NamerFactionProtogen</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->The [protogen_empire_first] People of [protogen_empire_first][protogen_empire_third]</li>
+        <li>r_name->Black [protogen_empire_first][protogen_empire_second] League</li>
+        <li>r_name->The Right Honorable [protogen_empire_first] Coalition</li>
+        <li>r_name->The Kingdom of [protogen_empire_first]-[protogen_empire_first]</li>
+        <li>r_name->The [protogen_empire_first] Dynasty</li>
+		<li>r_name->The [protogen_empire_first] Folks of [protogen_empire_first][protogen_empire_second]</li>
+		<li>r_name->The [protogen_empire_first] Hegemony</li>
+		<li>r_name->The [protogen_empire_first] Empire</li>
+        <li>r_name->The [protogen_empire_first][protogen_empire_second][protogen_empire_third] City State of [protogen_empire_second][protogen_empire_third]</li>
+	  </rulesStrings>
+      <rulesFiles>
+        <li>protogen_empire_first->Protogen_Words/ProtogenFirstNamePart</li>
+		<li>protogen_empire_second->Protogen_Words/ProtogenSecondNamePart</li>
+		<li>protogen_empire_third->Protogen_Words/ProtogenThirdNamePart</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+   </value>
+	</Operation>
+</Patch>

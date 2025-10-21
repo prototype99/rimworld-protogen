@@ -1,0 +1,125 @@
+﻿The Knight
+Ryzen
+8088
+8086
+C#
+C++
+C
+2G
+3G
+4G
+5G
+API
+AGP
+Adware
+Analog
+Analogue
+ATM
+BASIC
+BIOS
+
+256
+2
+3
+4
+FX
+PCX
+6100 +
+6150 SE+
+6150 LE+
+6150 +
+6200
+6500
+6600
+6800
+7025 +
+7050PV
+7050 +
+7100 +
+7150 +
+7100
+7200
+7300
+7500
+7600
+7650
+7800
+7900
+7950
+8100
+8200
+8300
+8400
+8500
+8600
+8800
+9300
+9400
+9500
+9600
+9800
+G
+GT
+GTS
+205
+210
+310
+315
+320
+330
+340
+405
+510
+605
+TITAN V
+TITAN RTX
+
+Wonder
+Mach
+3D
+Radeon
+All-In-Wonder
+
+SKU
+M.2
+PCM
+DisplayPort
+QWERTY
+OCR
+Esports
+Bootstrap
+Word Processor
+MIDI
+Online
+Copyright
+Newline
+Bookmark
+Ad-Hoc
+Encrypted
+Encryption
+Integrated
+Block-Based
+QuickTime
+ActiveX
+Java
+FireWire
+Thunderbolt
+Peripheral
+Component
+Directory
+Access
+Anti-Aliased
+Anti-Aliasing
+Hyperthreaded
+Hyperthreading
+Interactive
+Metal
+Hash
+Flowchart
+Toolbar
+Token
+ATA
+SATA
+Hackerman
+Gamer
+Webmaster

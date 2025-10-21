@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+   <ThingDef ParentName="BodyPartNaturalBase">
+      <defName>Tail</defName>
+      <label>tail</label>
+      <description>A tail.</description>
+      <statBases>
+         <MarketValue>200</MarketValue>
+         <Mass>1</Mass>
+      </statBases>
+   </ThingDef>
+
+   <ThingDef ParentName="BodyPartNaturalBase">
+      <defName>XTail</defName>
+      <label>tail</label>
+      <description>A Protogen tail.</description>
+      <statBases>
+         <MarketValue>200</MarketValue>
+         <Mass>1</Mass>
+      </statBases>
+   </ThingDef>
+   
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>BionicProtogenTail</defName>
+    <label>bionic protogen tail</label>
+    <description>A technical marvel! Intricate gyroscopic feedback systems allow increased movement and dexterity! Amazing! Such Wow!</description>
+    <statBases>
+      <MarketValue>1500</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+	<costList>
+      <Plasteel>15</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+
+	
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>ClothTail</defName>
+    <label>cloth tail</label>
+    <description>Simple prosthesis made to replace a missing tail. It's better than nothing...</description>
+    <statBases>
+      <MarketValue>400</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+	<costList>
+      <Plasteel>15</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+  </ThingDef>
+  
+  
+</Defs>

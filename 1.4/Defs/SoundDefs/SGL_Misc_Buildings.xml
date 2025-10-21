@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>    
+  <SoundDef>
+    <defName>Recipe_Cremate_Gnoll</defName>  
+    <sustain>True</sustain>
+    <context>MapOnly</context>
+    <eventNames />  
+    <priorityMode>PrioritizeNearest</priorityMode>  
+    <sustainStopSound>Crematorium_Stop</sustainStopSound>  
+    <subSounds>
+      <li>
+        <muteWhenPaused>True</muteWhenPaused>      
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Interact/Work/Cremate/Crematorium/Crematorium_Loop</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>4.705883</min>        
+          <max>2.352941</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>1</min>        
+          <max>1.013529</max>
+        </pitchRange>
+      </li>    
+      <li>
+        <muteWhenPaused>True</muteWhenPaused>      
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Music/departed</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>11.52941</min>        
+          <max>12.70588</max>
+        </volumeRange>
+        <pitchRange>
+          <min>1</min>        
+          <max>0.9</max>
+        </pitchRange>      
+        <distRange>
+          <min>10</min>        
+          <max>50</max>
+        </distRange>      
+        <sustainLoop>False</sustainLoop>      
+        <sustainIntervalRange>
+          <min>-1.031524</min>        
+          <max>-1.031524</max>
+        </sustainIntervalRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

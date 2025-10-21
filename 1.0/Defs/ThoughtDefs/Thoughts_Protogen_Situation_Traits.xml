@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>NoMitherPain</defName>
+    <workerClass>ThoughtWorker_Pain</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>NoMither</li>
+    </requiredTraits>
+    <nullifyingTraits>      
+	  <li>Masochist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>no mither in a little pain</label>
+        <description>It doesn't hurt at all...</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>no mither in moderate pain</label>
+        <description>It's just a scratch, I'll be fine.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+      <li>
+        <label>no mither in intense pain</label>
+        <description>Ouch... I think I need a bit of medical treatment for that.</description>
+        <baseMoodEffect>-7</baseMoodEffect>
+      </li>
+      <li>
+        <label>no mither in exceptional pain</label>
+        <description>I don't think I can take any more...!</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>
+<!--
+  <ThoughtDef>
+    <defName>BrawlerUnhappy</defName>
+    <workerClass>ThoughtWorker_IsCarryingRangedWeapon</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>SelfCare</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>brawler has ranged weapon</label>
+        <description>I hate shooting from a distance. I want to get up close and personal!</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

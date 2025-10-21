@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+<!--
+  <TraitDef>
+    <defName>SelfCare</defName>
+    <commonality>0.2</commonality>
+    <degreeDatas>
+      <li>
+        <label>Self-Carer</label>
+        <description>NAME was curious, and sustained several injures due to accidents whilst they were outside. HECAP became more skilled in taking care of themselves, and picked up a little medical knowledge as well.</description>
+        	<statOffsets>
+         		<MedicalTendQuality>0.2</MedicalTendQuality>
+        	</statOffsets>
+		<skillGains>
+			<li>
+				<key>Medicine</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+      </li>
+    </degreeDatas>
+    <requiredWorkTags>
+      <li>Caring</li>
+    </requiredWorkTags>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>NoMither</defName>
+    <commonality>0.13</commonality>
+    <degreeDatas>
+      <li>
+        <label>No Mither</label>
+        <description>NAME is one tough person, and it shows in how significantly better they take pain. HECAP however would prefer not to die from their injuries.</description>
+        	<statOffsets>
+         		<PainShockThreshold>0.15</PainShockThreshold>
+      <Flammability>-1.0</Flammability>
+        	</statOffsets>
+	<marketValueFactorOffset>0.10</marketValueFactorOffset>
+      </li>
+    </degreeDatas>
+		<conflictingTraits>
+			<li>Wimp</li>
+		</conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>BarterMaster</defName>
+    <commonality>0.2</commonality>
+    <degreeDatas>
+      <li>
+        <label>Barterer</label>
+        <description>NAME often gains better prices when trading with someone, usually to their own monetary benefit.</description>
+        	<statOffsets>
+     			<TradePriceImprovement>0.50</TradePriceImprovement>
+        	</statOffsets>
+	<marketValueFactorOffset>0.20</marketValueFactorOffset>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>FastEater</defName>
+    <commonality>0.30</commonality>
+    <degreeDatas>
+      <li>
+        <label>Fast Eater</label>
+        <description>NAME eats their food significantly faster than others, so that they can get back to what they were doing quicker.</description>
+        	<statOffsets>
+     			<EatingSpeed>0.50</EatingSpeed>
+        	</statOffsets>
+      </li>
+    </degreeDatas>
+		<conflictingTraits>
+			<li>SlowEater</li>
+		</conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>SlowEater</defName>
+    <commonality>0.25</commonality>
+    <degreeDatas>
+      <li>
+        <label>Slow Eater</label>
+        <description>NAME eats their food significantly slower than others, in order to try and ... "savour" the flavours.</description>
+        	<statOffsets>
+     			<EatingSpeed>-0.50</EatingSpeed>
+        	</statOffsets>
+      </li>
+    </degreeDatas>
+		<conflictingTraits>
+			<li>FastEater</li>
+		</conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>PackMule</defName>
+    <commonality>0.17</commonality>
+    <degreeDatas>
+      <li>
+        <label>Pack Mule</label>
+        <description>Is NAME part pack mule? HECAP can carry significantly more things at once when hauling things over distances compared to the average man.</description>
+        	<statOffsets>
+     			<CarryingCapacity>25</CarryingCapacity>
+        	</statOffsets>
+      </li>
+    </degreeDatas>
+		<conflictingTraits>
+			<li>LowSpace</li>
+		</conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>LowSpace</defName>
+    <commonality>0.15</commonality>
+    <degreeDatas>
+      <li>
+        <label>Low Space</label>
+        <description>NAME just can't seem to carry as much as the average person. HECAP will leave more behind in order not to lose anything whilst hauling.</description>
+        	<statOffsets>
+     			<CarryingCapacity>-25</CarryingCapacity>
+        	</statOffsets>
+      </li>
+    </degreeDatas>
+		<conflictingTraits>
+			<li>PackMule</li>
+		</conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>InspiredArtistFast</defName>
+    <commonality>0.1</commonality>
+    <degreeDatas>
+      <li>
+        <label>Inspired Artist</label>
+        <description>NAME is surprisingly fast at producing art, maybe because HE's head is bursting with ideas from different inspirations.</description>
+        	<statOffsets>
+         		<SculptingSpeed>0.33</SculptingSpeed>
+        	</statOffsets>
+		<skillGains>
+			<li>
+				<key>Artistic</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+      </li>
+    </degreeDatas>
+    <requiredWorkTags>
+      <li>Artistic</li>
+    </requiredWorkTags>
+  </TraitDef>
+
+-->
+
+</Defs>
+

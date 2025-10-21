@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <TraitDef>
+    <defName>NoMither</defName>
+    <commonality>0.13</commonality>
+    <degreeDatas>
+      <li>
+        <label>No Mither</label>
+        <description>[PAWN_nameDef] is one tough person, and it shows in how significantly better they take pain. [PAWN_pronoun] however doesn't find pleasure in being critically injured.</description>
+        	<statOffsets>
+         		<PainShockThreshold>0.15</PainShockThreshold>
+        	</statOffsets>
+		<marketValueFactorOffset>0.10</marketValueFactorOffset>
+      </li>
+    </degreeDatas>
+		<conflictingTraits>
+			<li>Wimp</li>
+			<li>Masochist</li>
+		</conflictingTraits>
+	</TraitDef>
+	
+</Defs>

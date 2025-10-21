@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--	
+<RecipeDef>
+    <defName>Make_WeaponPart_ScopeGeneric</defName>
+    <label>make scope</label>
+    <description>Make a Scope.</description>
+    <jobString>Making a Scope.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>5000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <WeaponPart_ScopeGeneric>1</WeaponPart_ScopeGeneric>
+    </products>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
+    <workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>TableWeaponMod</li>
+		</recipeUsers>
+  </RecipeDef>
+
+<RecipeDef>
+    <defName>Make_WeaponPart_MagGeneric</defName>
+    <label>make extended magazine</label>
+    <description>Make a Extended Magazine.</description>
+    <jobString>Making a Extended Magazine.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>6000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <WeaponPart_MagGeneric>1</WeaponPart_MagGeneric>
+    </products>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
+    <workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>TableWeaponMod</li>
+		</recipeUsers>
+  </RecipeDef>
+
+<RecipeDef>
+    <defName>Make_WeaponPart_StockGeneric</defName>
+    <label>make stock</label>
+    <description>Make a Stock.</description>
+    <jobString>Making a Stock.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>5500</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>17</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <WeaponPart_StockGeneric>1</WeaponPart_StockGeneric>
+    </products>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
+    <workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>TableWeaponMod</li>
+		</recipeUsers>
+  </RecipeDef>
+
+<RecipeDef>
+    <defName>Make_WeaponPart_SilencerGeneric</defName>
+    <label>make silencer</label>
+    <description>Make a Silencer.</description>
+    <jobString>Making a Silencer.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>5500</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <WeaponPart_SilencerGeneric>1</WeaponPart_SilencerGeneric>
+    </products>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+    <workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>TableWeaponMod</li>
+		</recipeUsers>
+  </RecipeDef>
+
+<RecipeDef>
+    <defName>Modify_P90_Scope</defName>
+    <label>modify P90 with scope</label>
+    <description>Modify a P90 with a scope.</description>
+    <jobString>Modifying a P90.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>5000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WeaponPart_ScopeGeneric</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gun_ProfessionalNinety</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Gun_ProfessionalNinetyACOG>1</Gun_ProfessionalNinetyACOG>
+    </products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+    <workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>TableWeaponMod</li>
+		</recipeUsers>
+</RecipeDef>
+
+<RecipeDef>
+    <defName>Modify_BoltActionRifle_Scope</defName>
+    <label>modify bolt action rifle with scope</label>
+    <description>Modify a bolt action rifle with a scope.</description>
+    <jobString>Modifying a bolt action rifle.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>5000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WeaponPart_ScopeGeneric</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gun_BoltActionRifleScope</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Gun_BoltActionRifleScope>1</Gun_BoltActionRifleScope>
+    </products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+    <workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>TableWeaponMod</li>
+		</recipeUsers>
+  </RecipeDef>
+
+<RecipeDef>
+    <defName>Modify_L86A2_Scope</defName>
+    <label>modify L86A2 with scope</label>
+    <description>Modify a L86A2 with a scope.</description>
+    <jobString>Modifying a L86A2.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>5000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WeaponPart_ScopeGeneric</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gun_L86ATwo</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Gun_L86ATwoACOG>1</Gun_L86ATwoACOG>
+    </products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+    <workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>TableWeaponMod</li>
+		</recipeUsers>
+  </RecipeDef>
+
+<RecipeDef>
+    <defName>Modify_Akimbo_Autopistol</defName>
+    <label>modify Autopistols with akimbo</label>
+    <description>Modify two Autopistols with akimbo.</description>
+    <jobString>Modifying a Autopistol.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>5000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gun_Autopistol</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <Gun_AkimboPistol>1</Gun_AkimboPistol>
+    </products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+    <workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>TableWeaponMod</li>
+		</recipeUsers>
+  </RecipeDef>
+
+<RecipeDef>
+    <defName>Modify_Akimbo_57</defName>
+    <label>modify Five-seveNs with akimbo</label>
+    <description>Modify two Five-seveNs with akimbo.</description>
+    <jobString>Modifying a Five-seveN.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>5000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gun_Five-seveN</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <Gun_AkimboFive-seveN>1</Gun_AkimboFive-seveN>
+    </products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+    <workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>TableWeaponMod</li>
+		</recipeUsers>
+  </RecipeDef>
+  
+<RecipeDef>
+    <defName>Modify_Akimbo_C96</defName>
+    <label>modify C96s with akimbo</label>
+    <description>Modify two C96s with akimbo.</description>
+    <jobString>Modifying a C96.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>5000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gun_C96Auto</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <AkimboGun_C96Auto>1</AkimboGun_C96Auto>
+    </products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+    <workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>TableWeaponMod</li>
+		</recipeUsers>
+  </RecipeDef>
+ 
+<RecipeDef>
+    <defName>Modify_C96_ExtMag</defName>
+    <label>modify C96 with extended magazine</label>
+    <description>Modify a C96 with a extended magazine.</description>
+    <jobString>Modifying a C96.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>5000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gun_C96Auto</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WeaponPart_MagGeneric</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Gun_C96AutoExtMag>1</Gun_C96AutoExtMag>
+    </products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+    <workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>TableWeaponMod</li>
+		</recipeUsers>
+  </RecipeDef>
+  
+<RecipeDef>
+    <defName>Modify_Akimbo_C96ExtMag</defName>
+    <label>modify Dual Wielded C96s with extended magazines</label>
+    <description>Modify Dual Wielded C96s with extended magazines</description>
+    <jobString>Modifying two C96s.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>7500</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AkimboGun_C96Auto</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WeaponPart_MagGeneric</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <AkimboGun_C96AutoExtMag>1</AkimboGun_C96AutoExtMag>
+    </products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+    <workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>TableWeaponMod</li>
+		</recipeUsers>
+  </RecipeDef>
+
+<RecipeDef>
+    <defName>Modify_G18Auto_Silencer</defName>
+    <label>modify G18 with silencer</label>
+    <description>Modify a G18 with a Silencer.</description>
+    <jobString>Modifying a G18.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>5000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gun_G18Auto</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WeaponPart_SilencerGeneric</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Gun_G18AutoSilenced>1</Gun_G18AutoSilenced>
+    </products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+    <workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>TableWeaponMod</li>
+		</recipeUsers>
+  </RecipeDef>
+
+<RecipeDef>
+    <defName>Modify_G18Auto_ExtMag</defName>
+    <label>modify G18 with extended magazine</label>
+    <description>Modify a G18 with a Extended Magazine.</description>
+    <jobString>Modifying a G18.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>5000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gun_G18Auto</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WeaponPart_MagGeneric</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Gun_G18AutoExtMag>1</Gun_G18AutoExtMag>
+    </products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+    <workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>TableWeaponMod</li>
+		</recipeUsers>
+  </RecipeDef>
+  
+<RecipeDef>
+    <defName>Modify_G18Auto_MaxMod</defName>
+    <label>modify G18 with various mods</label>
+    <description>Modify a G18 with a Extended Magazine and Silencer, creating a maximum modified version of the pistol.</description>
+    <jobString>Modifying a G18.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>7500</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gun_G18Auto</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WeaponPart_MagGeneric</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WeaponPart_SilencerGeneric</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Gun_G18AutoMaxMod>1</Gun_G18AutoMaxMod>
+    </products>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
+    <workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>TableWeaponMod</li>
+		</recipeUsers>
+  </RecipeDef>
+  -->
+  
+  </Defs>

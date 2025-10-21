@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>LostProto1</defName>
+    <title>Lost Youth</title>
+	<titleShort>Youth</titleShort>
+    <description>[PAWN_nameDef] had found themselves alone upon being released, before [PAWN_pronoun] was loaded with information about caring for others. This left [PAWN_nameDef] with an extreme focus on fighting, and crippled social skills.</description>
+    <slot>Childhood</slot>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+		<spawnCategories>
+			<li>ProtogenBackstoryNME</li>
+		</spawnCategories>
+	<skillGains>
+	    <Social>-3</Social>
+		<Medicine>-4</Medicine>
+		<Melee>6</Melee>
+		<Shooting>4</Shooting>
+    </skillGains>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>ProtogenBasicTribe</defName>
+    <title>Tribesman</title>
+	<titleShort>Tribesman</titleShort>
+    <description>In [PAWN_possessive] village born and raised, a small little tribe's where [PAWN_nameDef] spent most of [PAWN_possessive] days. [PAWN_pronoun] was a perfectly average, if bizaarely tribal, type of person.</description>
+    <slot>Adulthood</slot>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>2</Social>
+      <Shooting>3</Shooting>
+      <Melee>3</Melee>
+    </skillGains>
+</AlienRace.AlienBackstoryDef>
+
+<!--
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SergalJerkTribal</defName>
+    <title>Northern Sergal</title>
+	<titleShort>Northener</titleShort>
+    <description>[PAWN_nameDef] was born to riches and acts like a total butthole. [PAWN_pronoun] was able to rise above his rougher cohorts. [PAWN_pronoun] became renown across the lands as "a total douche".</description>
+    <slot>Childhood</slot>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<maleCommonality>10</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+    <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+	  <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+        <li>Social</li>
+    </workDisables>
+</AlienRace.AlienBackstoryDef>
+
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SergalTribalHunter</defName>
+    <title>Tribal Hunter</title>
+	<titleShort>Hunter</titleShort>
+    <description>[PAWN_nameDef] was a devastating little murder machine as a child, having figured out early on the secret to ranged attacks.</description>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>7</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SergalTribalHunterAdult</defName>
+    <title>Chief Hunter</title>
+	<titleShort>Headhunter</titleShort>
+    <description>Having a keen eye for ranged attacks and a quick fist to back it all up, [PAWN_nameDef] was virtually destined to become the chief hunter.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>7</amount>
+      </li>
+	        <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SergalTribalEngineer</defName>
+    <title>Tent Pitcher</title>
+	<titleShort>Builder</titleShort>
+    <description>As a talent, [PAWN_nameDef] can pitch a tent faster than any other in [PAWN_possessive] tribe. Most people stand in awe and say "wow, I've never seen a tent get pitched so quickly."</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>8</amount>
+      </li>
+	        <li>
+        <defName>Crafting</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SergalTribalArtist</defName>
+    <title>Art Fairy</title>
+	<titleShort>Artiste</titleShort>
+    <description>[PAWN_nameDef]'s tribe had a strange way of referring to artistic people as "fairies" before the mythology around fairies was a thing.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>8</amount>
+      </li>
+    </skillGains>
+</AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef>
+    <defName>SergalTamer</defName>
+    <title>Animal Tamer</title>
+    <titleShort>Tamer</titleShort>
+    <description>[PAWN_nameDef] spoke only to animals as a child, and showed talent for whispering animals bordering on idiot savant levels.</description>
+    <slot>Childhood</slot>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+		<maleCommonality>30</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+      <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+    <skillGains>
+          <li>
+        <defName>Animals</defName>
+        <amount>12</amount>
+      </li>
+    </skillGains> 
+	<workDisables>
+      <li>Social</li>
+	  <li>Caring</li>
+	</workDisables>
+    </AlienRace.AlienBackstoryDef>
+
+	    <AlienRace.AlienBackstoryDef>
+    <defName>SergalTribalChild</defName>
+    <title>Young One</title>
+    <titleShort>Young'n</titleShort>
+    <description>[PAWN_nameDef] is a youngling.</description>
+    <slot>Childhood</slot>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+      <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+    <skillGains>
+        <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+	   <workDisables>
+        <li>Caring</li>
+	   </workDisables>
+    </AlienRace.AlienBackstoryDef>
+
+
+    <AlienRace.AlienBackstoryDef>
+    <defName>SergalTribalKid</defName>
+    <title>Sergal Tribal Kid</title>
+    <titleShort>Tribekid</titleShort>
+    <description>[PAWN_nameDef] was born in a small tribe. [PAWN_pronoun] had to learn to carry [PAWN_possessive] weight and keep the tribe running from an early age.</description>
+    <slot>Childhood</slot>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+		<maleCommonality>80</maleCommonality>
+	<femaleCommonality>80</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef>
+    <defName>SergalBigTribalKid</defName>
+    <title>Good Pup</title>
+    <titleShort>Pupsen</titleShort>
+    <description>[PAWN_nameDef] was born in a big tribe. [PAWN_pronoun] learned some advanced combat techniques and general survival information, courtesy of a more successful tribe.</description>
+		<maleCommonality>90</maleCommonality>
+	<femaleCommonality>90</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+
+      <li>
+        <defName>Plants</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+      <AlienRace.AlienBackstoryDef>
+
+    <defName>SergalTribalDigKid</defName>
+    <title>Dirt Child</title>
+    <titleShort>Filth</titleShort>
+    <description>[PAWN_nameDef] was always playing in the sandbox, or building in the mud, or otherwise finding excuses to make holes in the ground.</description>
+	<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+	<slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Plants</defName>
+        <amount>1</amount>
+      </li>
+	  <li>
+        <defName>Mining</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+
+  <! ====== Adult Stories - not porn ====== -->
+
+<!--
+
+    <AlienRace.AlienBackstoryDef>
+    <defName>SergalToymaker</defName>
+    <title>Stick Maker</title>
+    <titleShort>Sticklord</titleShort>
+    <description>[PAWN_nameDef] was always good at making pointy sticks that were good for piercing people.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>8</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+      <AlienRace.AlienBackstoryDef>
+    <defName>SergalSexSlave</defName>
+    <title>Sex Slave</title>
+    <titleShort>Concubine</titleShort>
+    <description>[PAWN_nameDef] was captured by slavers and sold into sexual slavery. [PAWN_pronoun] was forced to do all sorts of lewd acts for [PAWN_possessive] 'owner', but grew accustomed to the otherwise lavish environment, and spoiled as far as labor is concerned.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+	<femaleCommonality>10</femaleCommonality>
+    <slot>Adulthood</slot>
+    <workDisables>
+     <li>Hauling</li>
+	 <li>Cleaning</li>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+	   <li>
+        <defName>Cooking</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+      <AlienRace.AlienBackstoryDef>
+    <defName>SergalTribeMiner</defName>
+    <title>Sergal Tribe Miner</title>
+    <titleShort>Miner</titleShort>
+    <description>[PAWN_nameDef] learned how to swing pointy metal things at rocks in order to get more rocks that create more pointy metal things.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef>
+
+    <defName>SergalShaman</defName>
+    <title>Sergal Shaman</title>
+    <titleShort>Shaman</titleShort>
+    <description>[PAWN_nameDef] is a bit of a strange thing, constantly jibbering about some great power in the sky that is angry at us. Somehow channels that into [PAWN_possessive] medical work though, so they keep [PAWN_pronoun] around.</description>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef>
+    <defName>SergalTribalHunterBS</defName>
+    <title>Regular Hunter</title>
+    <titleShort>Regunter</titleShort>
+    <description>[PAWN_nameDef] is an average hunter. Sometimes called to put down manhunters, or guide rich dentists on Safari, [PAWN_possessive] skills as a tracker are only matched by [PAWN_possessive] skill at handling.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>25</maleCommonality>
+	<femaleCommonality>25</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+	  <li>
+        <defName>Shooting</defName>
+        <amount>12</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>SergalTribalBreeder</defName>
+    <title>Nivren breeder</title>
+    <titleShort>Breedlord</titleShort>
+    <description>[PAWN_nameDef] has spent many years breeding Vilous wildlife, which requires somewhat special handling due to their rapid reproductive rate. This experience has given [PAWN_pronoun] a great deal of insight into certain animal behaviours.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef>
+    <defName>SergalOddJobTribe</defName>
+    <title>Tribal Handyman</title>
+    <titleShort>Handyman</titleShort>
+    <description>[PAWN_nameDef] is a basic handyman. Or woman. Whatever.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Crafting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef>
+    <defName>SergalTribalChef</defName>
+    <title>Tribal Meat Burner</title>
+    <titleShort>Meat Searist</titleShort>
+    <description>[PAWN_nameDef] is a tribal cooking wizard. [PAWN_pronoun] performs the ham dance and the tribe eats well for the harvest.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Cooking</defName>
+        <amount>8</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+	 <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>SergalTribeLead</defName>
+    <title>Sergal Chieftan</title>
+    <titleShort>Boss</titleShort>
+    <description>[PAWN_nameDef] bears the title of leadership among [PAWN_possessive] community. </description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>5</maleCommonality>
+	<femaleCommonality>5</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>8</amount>
+      </li>
+	  <li>
+        <defName>Intellectual</defName>
+        <amount>8</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+	 <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>PrivateTribalSergal</defName>
+    <title>Tribal Soldier</title>
+    <titleShort>Warrior</titleShort>
+    <description>[PAWN_nameDef] is a rank-and-file soldier for the tribe.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>12</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>8</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef>
+    <defName>TribalKnightSergal</defName>
+    <title>Army Knight</title>
+    <titleShort>Knight</titleShort>
+    <description>[PAWN_nameDef] is an officer for the tribe's army. [PAWN_pronoun] is responsible for the warriors under [PAWN_possessive] command, and takes that duty seriously.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>12</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef>
+    <defName>SergalTribalTraderAdult</defName>
+    <title>Tribal Trader</title>
+    <titleShort>Trader</titleShort>
+    <description>[PAWN_nameDef] was a free-trader, roving the Hamal Cluster and its neighbor's space searching for deals and opportunities for profit. Until now, [PAWN_pronoun] was flying a ship, making deals with colonies like these... I wonder what happened?</description>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+			<maleCommonality>30</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+      <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+    <skillGains>
+          <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>10</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+	  <AlienRace.AlienBackstoryDef>
+    <defName>SergalTribalManhunter</defName>
+    <title>People Collector</title>
+    <titleShort>Collector</titleShort>
+    <description>[PAWN_nameDef] is something of a bounty hunter, often called "unga bungas" in the tribe. Historians claim that this moniker comes from the act of collecting persons under the "I Arrest Your Bitch Ass" act. History aside, [PAWN_nameDef] is not to be taken lightly... or at all.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>18</maleCommonality>
+	<femaleCommonality>18</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+	  <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+
+  	  <AlienRace.AlienBackstoryDef>
+    <defName>SergalTribalTerminator</defName>
+    <title>Tribal Assassin</title>
+    <titleShort>Assassin</titleShort>
+    <description>[PAWN_nameDef] is fairly lethal.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>10</maleCommonality>
+	<femaleCommonality>10</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>16</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>13</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-4</amount>
+      </li>
+	  <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+      <AlienRace.AlienBackstoryDef>
+    <defName>SergalBarbarian</defName>
+    <title>Sergal Barbarian</title>
+    <titleShort>Barbarian</titleShort>
+    <description>[PAWN_nameDef] was captured after a battle on a medieval world, and forced to train as a pit-fighter. After crushing [PAWN_possessive] enemies, seeing them driven before [PAWN_pronoun], and hearing the lamentation of their women, [PAWN_pronoun] was released from captivity. [PAWN_pronoun] now seems to be seeking 'Daijin Kuremkul' or something?</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>15</maleCommonality>
+	<femaleCommonality>6</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>12</amount>
+      </li>
+	  <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>SergalTribalKynen</defName>
+    <title>Witch Doctor</title>
+    <titleShort>Medigod</titleShort>
+    <description>[PAWN_nameDef] was born of a terrible background but managed to defeat the odds and become a renowned witch doctor who has in particular made excellent progress in the field of lobotomies</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>0</maleCommonality>
+	<femaleCommonality>1</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+	  <li>
+        <defName>Intellectual</defName>
+        <amount>8</amount>
+      </li>
+	  <li>
+        <defName>Medicine</defName>
+        <amount>12</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef>
+    <defName>SergalTribalAufen</defName>
+    <title>Sergal Tribal Guy</title>
+    <titleShort>Dancer</titleShort>
+    <description>[PAWN_nameDef] likes doing some things I guess.</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>1</maleCommonality>
+	<femaleCommonality>1</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>12</amount>
+      </li>
+	  <li>
+        <defName>Construction</defName>
+        <amount>6</amount>
+      </li>
+	  <li>
+        <defName>Crafting</defName>
+        <amount>8</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+
+    <AlienRace.AlienBackstoryDef>
+    <defName>SergalTribalSlaveLord</defName>
+    <title>Sergal Slaver</title>
+    <titleShort>Slaver</titleShort>
+    <description>[PAWN_nameDef] built a slave empire with brains, and more than a fair share of ruthlessness. [PAWN_pronoun] made a fortune, which attracted the attention of [PAWN_possessive] rivals, the dreaded Panstrumants Corporation. They struck [PAWN_possessive] base of operation with mercenary raids and terrorist attacks. Now [PAWN_pronoun] is out for revenge...</description>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>1</amount>
+      </li>
+	  <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+	  <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ProtogenTribalBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  
+  -->
+
+</Defs>

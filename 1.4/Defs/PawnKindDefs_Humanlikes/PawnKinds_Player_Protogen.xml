@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef Abstract="True" Name="BaseProtogenPawnKind">
+    <race>Alien_Protogen</race>
+    <combatPower>40</combatPower>
+    <initialWillRange>11~33</initialWillRange>
+    <initialResistanceRange>15~43</initialResistanceRange>
+    <isFighter>false</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BaseProtogenPawnKind">
+    <defName>Protogen</defName>
+    <label>colonist</label>
+    <defaultFactionType>ProtogenPlayerColony</defaultFactionType>
+    <backstoryCategories>
+		<li>ProtogenBackstory</li>
+        <li>Civil</li>
+  	</backstoryCategories>
+    <chemicalAddictionChance>0.01</chemicalAddictionChance>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+    </apparelTags>
+    <apparelMoney>2000~3400</apparelMoney>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+	<techHediffsChance>0.05</techHediffsChance>
+    <techHediffsMoney>200~1600</techHediffsMoney>
+    <techHediffsTags>
+      <li>Simple</li>
+      <li>Advanced</li>
+      <li>AdvancedWeapon</li>
+    </techHediffsTags>
+  </PawnKindDef>
+
+</Defs>
