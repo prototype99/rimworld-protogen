@@ -3,7 +3,7 @@ using Verse;
 
 namespace Zeus
 {
-    public class Projectile_ZeusShock: Bullet
+    public class Projectile_ZeusShock: Projectile
     {
         #region Properties
 
