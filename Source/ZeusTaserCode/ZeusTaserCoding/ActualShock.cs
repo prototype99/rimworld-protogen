@@ -45,7 +45,7 @@ namespace Zeus
                         ), MessageTypeDefOf.NeutralEvent);
 
                     var taserShockOnPawn = hitPawn.health?.hediffSet?.GetFirstHediffOfDef(Def.HediffToAdd);
-                    var randomSeverity = Rand.Range(0.50f, 1f);
+                    var randomSeverity = Rand.Range(0.15f, 0.30f);
                     if (taserShockOnPawn != null)
                     {
                         taserShockOnPawn.Severity += randomSeverity;
