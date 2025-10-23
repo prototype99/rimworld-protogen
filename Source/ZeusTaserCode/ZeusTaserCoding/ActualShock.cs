@@ -26,7 +26,7 @@ namespace Zeus
             {
                 Log.Warning("[ZeusTaserCoding] base.Impact missing at runtime; skipping base call to avoid crash. This may indicate an unexpected game API change. " + mme);
                 // Minimal fallback: destroy projectile so it doesn't linger
-                this.Destroy(DestroyMode.Vanish);
+                Destroy();
             }
             catch (System.Exception ex)
             {
