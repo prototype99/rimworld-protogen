@@ -12,7 +12,7 @@ namespace Zeus
         #endregion Properties
 
         #region Overrides
-        protected override void Impact(Thing hitThing, bool blockedByShield = false)
+        protected override void Impact(Thing hitThing)
         {
             /* This is a call to the Impact method of the class we're inheriting from.
                 * You can use your favourite decompiler to see what it does, but suffice to say
@@ -20,7 +20,7 @@ namespace Zeus
                 */
             try
             {
-                base.Impact(hitThing, blockedByShield);
+                base.Impact(hitThing);
             }
             catch (System.MissingMethodException mme)
             {
