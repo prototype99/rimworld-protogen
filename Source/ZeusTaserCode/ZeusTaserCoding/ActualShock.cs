@@ -12,13 +12,26 @@ namespace Zeus
         #endregion Properties
 
         #region Overrides
-        protected override void Impact(Thing hitThing)
+        protected override void Impact(Thing hitThing, bool blockedByShield = false)
         {
             /* This is a call to the Impact method of the class we're inheriting from.
                 * You can use your favourite decompiler to see what it does, but suffice to say
                 * there are useful things in there, like damaging/killing the hitThing.
                 */
-            base.Impact(hitThing);
+            try
+            {
+                base.Impact(hitThing, blockedByShield);
+            }
+            catch (System.MissingMethodException mme)
+            {
+                Log.Warning("[ZeusTaserCoding] base.Impact missing at runtime; skipping base call to avoid crash. This may indicate an unexpected game API change. " + mme);
+                // Minimal fallback: destroy projectile so it doesn't linger
+                this.Destroy(DestroyMode.Vanish);
+            }
+            catch (System.Exception ex)
+            {
+                Log.Error("[ZeusTaserCoding] Unexpected error calling base.Impact: " + ex);
+            }
             /*
             * Null checking is very important in RimWorld.
             * 99% of errors reported are from NullReferenceExceptions (NREs).
