@@ -35,11 +35,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ActualShock.cs" />
+    <Compile Include="HarmonyPatches.cs" />
     <Compile Include="HediffDefOfStuff.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TaserCoding.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="0Harmony, Version=2.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Lib.Harmony.2.4.1\lib\net472\0Harmony.dll</HintPath>
+    </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
@@ -249,6 +253,9 @@
     <Reference Include="UnityEngine.WindModule">
       <HintPath>..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.WindModule.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
